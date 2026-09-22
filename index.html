@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<!--
+  NIKOLAIDOU — Ελένη Νικολαΐδου, Ψυχίατρος-Ψυχοθεραπεύτρια, Τρίκαλα · Advon Media, 22 Sept 2026
+  Named style: «Sage & clay line-art» (sage wall, clay armchairs, blush line-art prints of her office)
+  Skeleton roll: hero = cinematic full-bleed photo · nav = top bar · services = card grid (the one grid) ·
+  proof = grid wall of Google reviews · contact = split map + details · FAQ = full-width band after reviews
+  Signature interaction: «Με τι μπορώ να σας βοηθήσω» — condition explorer (list → living panel)
+  Tone dial: professional-warm → washes, breathing rings, hairline line-art sprigs, dot grid. No confetti.
+-->
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ψυχίατρος Τρίκαλα | Ελένη Νικολαΐδου, Ψυχοθεραπεύτρια</title>
+<meta name="description" content="Ψυχίατρος - Ψυχοθεραπεύτρια στο κέντρο των Τρικάλων. Ψυχοθεραπεία, φαρμακοθεραπεία ή συνδυασμός, με εξατομικευμένη φροντίδα. Κλείστε ραντεβού.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#2F3E36">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ελένη Νικολαΐδου — Ψυχίατρος - Ψυχοθεραπεύτρια, Τρίκαλα">
+<meta property="og:description" content="Ψυχοθεραπεία, φαρμακοθεραπεία ή συνδυασμός, στο ιατρείο, κατ' οίκον ή online.">
+<meta property="og:image" content="assets/img/psychiatros-trikala-nikolaidou.webp">
+<link rel="icon" href="favicon.ico?v=1" sizes="48x48">
+<link rel="icon" href="assets/icons/favicon.svg?v=1" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png?v=1">
+<link rel="manifest" href="site.webmanifest?v=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500&family=Manrope:wght@400;600&display=swap">
+<link rel="preload" as="image" href="assets/img/psychiatros-trikala-nikolaidou.webp" imagesrcset="assets/img/psychiatros-trikala-nikolaidou-900.webp 900w, assets/img/psychiatros-trikala-nikolaidou.webp 1600w" imagesizes="100vw" fetchpriority="high">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+:root{
+ --paper:#F4F1EA;--paper2:#ECE7DC;--card:#FBF9F5;--ink:#1F2623;--ink2:#4A534E;--mute:#6B736D;
+ --sage:#7E8C74;--sage2:#A9B5A0;--deep:#2F3E36;--deep2:#243029;--clay:#B0593C;--clay2:#D48A6C;--blush:#EBD5C8;--gold:#E0A526;
+ --sh-1:0 1px 2px rgba(31,38,35,.06),0 6px 18px -8px rgba(31,38,35,.14);
+ --sh-2:0 2px 6px rgba(31,38,35,.08),0 22px 48px -20px rgba(31,38,35,.28);
+ --sh-3:0 30px 80px -30px rgba(47,62,54,.55),0 8px 24px -12px rgba(176,89,60,.25);
+ --serif:'Literata',Georgia,'Noto Serif',serif;--sans:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+ --max:1240px;--r:22px;--ease:cubic-bezier(.2,.7,.2,1);--spring:cubic-bezier(.34,1.56,.64,1)
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.7 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.14;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(30px,3.6vw,46px)}
+h3{font-size:21px;font-weight:500}
+p{margin:0 0 1em}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 32px}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font:600 12px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--clay)}
+.eyebrow::before{content:"";width:28px;height:1px;background:currentColor}
+.center{text-align:center}.center .eyebrow{justify-content:center}
+.lead{font-size:18px;color:var(--ink2);max-width:680px}
+.center .lead{margin:18px auto 0}
+section{position:relative;isolation:isolate;overflow-x:clip}
+.sec{padding:120px 0}
+.skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;z-index:999;background:#fff;padding:8px 12px}
+
+/* ---------- buttons ---------- */
+.btn{position:relative;display:inline-flex;align-items:center;gap:10px;padding:16px 26px;border-radius:999px;font:600 15px/1 var(--sans);text-decoration:none;border:0;cursor:pointer;overflow:hidden;transition:transform .35s var(--spring),box-shadow .35s var(--ease)}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-clay{background:var(--clay);color:#fff;box-shadow:0 10px 30px -10px rgba(176,89,60,.7),inset 0 1px 0 rgba(255,255,255,.2)}
+.btn-clay::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 35%,rgba(255,255,255,.35) 50%,transparent 65%);transform:translateX(-120%)}
+.btn-ghost{background:rgba(255,255,255,.08);color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.35)}
+.btn-deep{background:var(--deep);color:#fff;box-shadow:0 12px 30px -12px rgba(47,62,54,.7)}
+.tlink{font-weight:600;text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:2px}
+@media (hover:hover){.btn:hover{transform:translateY(-2px)}.btn-clay:hover{box-shadow:0 18px 40px -12px rgba(176,89,60,.75)}.btn-clay:hover::after{transform:translateX(120%);transition:transform .8s var(--ease)}}
+.btn:active{transform:scale(.97)}
+
+/* ---------- header ---------- */
+.hdr{position:fixed;inset:0 0 auto;z-index:50;transition:background .4s,box-shadow .4s,backdrop-filter .4s}
+.hdr .wrap{display:flex;align-items:center;justify-content:space-between;height:84px;transition:height .4s}
+.hdr.solid{background:rgba(244,241,234,.86);-webkit-backdrop-filter:saturate(1.3) blur(14px);backdrop-filter:saturate(1.3) blur(14px);box-shadow:0 1px 0 rgba(31,38,35,.08)}
+.hdr.solid .wrap{height:68px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;transition:color .4s}
+.hdr.solid .brand,.hdr.solid .nav a{color:var(--ink)}
+.mark{width:42px;height:42px;flex:none}
+.mark circle{fill:none;stroke:currentColor;stroke-width:1.1}
+.mark path{fill:none;stroke:currentColor;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round}
+.hdr.spin .mark{animation:mkSpin 1.1s var(--ease)}
+@keyframes mkSpin{to{transform:rotate(360deg)}}
+.brand b{display:block;font:500 19px/1.1 var(--serif)}
+.brand small{display:block;font:600 10.5px/1.3 var(--sans);letter-spacing:.14em;text-transform:uppercase;opacity:.75;margin-top:3px}
+.nav{display:flex;align-items:center;gap:30px}
+.nav a{color:#fff;text-decoration:none;font-weight:600;font-size:14px;position:relative;transition:color .4s}
+.nav a:not(.btn)::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease)}
+@media (hover:hover){.nav a:not(.btn):hover::after{transform:scaleX(1)}}
+.nav .btn{padding:12px 20px;font-size:14px}
+.lang{display:flex;gap:4px;padding:4px;border-radius:999px;background:rgba(255,255,255,.14);box-shadow:inset 0 0 0 1px rgba(255,255,255,.25)}
+.hdr.solid .lang{background:var(--paper2);box-shadow:none}
+.lang button{display:flex;align-items:center;gap:6px;border:0;background:none;color:inherit;font:600 12px/1 var(--sans);padding:6px 9px;border-radius:999px;cursor:pointer;color:#fff}
+.hdr.solid .lang button{color:var(--ink)}
+.lang button[aria-pressed=true]{background:#fff;color:var(--ink);box-shadow:var(--sh-1)}
+.flag{display:block;width:18px;height:12px;overflow:hidden;line-height:0;border-radius:2px;box-shadow:0 0 0 .5px rgba(0,0,0,.15)}
+.flag svg{display:block;width:100%;height:100%}
+.burger{display:none;width:46px;height:46px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#fff;cursor:pointer;align-items:center;justify-content:center}
+.hdr.solid .burger{background:var(--paper2);color:var(--ink)}
+.burger svg{width:22px;height:22px}
+.mnav{position:fixed;inset:0;z-index:80;background:var(--deep2);color:#fff;display:flex;flex-direction:column;padding:26px 28px 40px;transform:translateY(-100%);transition:transform .55s var(--ease);visibility:hidden}
+.mnav.open{transform:none;visibility:visible}
+.mnav .top{display:flex;justify-content:space-between;align-items:center}
+.mnav .x{width:48px;height:48px;border-radius:50%;border:1px solid rgba(255,255,255,.4);background:none;color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.mnav .x svg{width:22px;height:22px}
+.mnav nav{display:flex;flex-direction:column;gap:6px;margin-top:48px}
+.mnav nav a{font:400 32px/1.3 var(--serif);text-decoration:none;opacity:0;transform:translateY(16px);transition:opacity .45s,transform .45s var(--ease)}
+.mnav.open nav a{opacity:1;transform:none}
+.mnav.open nav a:nth-child(2){transition-delay:.05s}.mnav.open nav a:nth-child(3){transition-delay:.1s}.mnav.open nav a:nth-child(4){transition-delay:.15s}.mnav.open nav a:nth-child(5){transition-delay:.2s}.mnav.open nav a:nth-child(6){transition-delay:.25s}
+.mnav .lang{margin-top:auto;align-self:flex-start}
+.mnav .btn{margin-top:22px;align-self:stretch;justify-content:center}
+
+/* ---------- progress ---------- */
+.prog{position:fixed;left:0;top:0;height:3px;width:100%;z-index:60;transform-origin:left;transform:scaleX(0);background:linear-gradient(90deg,var(--sage),var(--clay))}
+
+/* ---------- intro ---------- */
+.intro{position:fixed;inset:0;z-index:100;background:var(--deep2);display:none;align-items:center;justify-content:center;flex-direction:column;gap:18px;color:#F4F1EA;border-radius:0 0 50% 50%/0 0 0 0}
+.js .intro.run{display:flex}
+.intro svg{width:96px;height:96px}
+.intro circle,.intro path{fill:none;stroke:#E8D2C4;stroke-width:1;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1}
+.intro.run circle{animation:draw 1s var(--ease) forwards}
+.intro.run path{animation:draw .7s var(--ease) forwards}
+.intro.run path:nth-of-type(1){animation-delay:.25s}.intro.run path:nth-of-type(2){animation-delay:.42s}.intro.run path:nth-of-type(3){animation-delay:.56s}.intro.run path:nth-of-type(4){animation-delay:.68s}.intro.run path:nth-of-type(5){animation-delay:.8s}
+.intro .nm{font:400 26px/1 var(--serif);letter-spacing:.02em;opacity:0;transform:translateY(10px)}
+.intro.run .nm{animation:up .6s var(--ease) .75s forwards}
+.intro.lift{transition:transform .9s cubic-bezier(.7,0,.2,1),border-radius .9s;transform:translateY(-105%);border-radius:0 0 50% 50%/0 0 22% 22%}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes up{to{opacity:1;transform:none}}
+
+/* ---------- hero ---------- */
+.hero{min-height:100vh;min-height:100svh;display:flex;align-items:center;color:#fff;overflow:clip;background:var(--deep2)}
+.hero-media{position:absolute;inset:0;z-index:-2}
+.hero-media picture{display:block;width:100%;height:100%}
+.hero-media img{width:100%;height:100%;object-fit:cover;object-position:62% 40%;transform-origin:60% 40%}
+.hero-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(28,38,32,.94) 0%,rgba(36,48,41,.82) 30%,rgba(36,48,41,.25) 58%,rgba(36,48,41,0) 75%),linear-gradient(0deg,rgba(28,38,32,.55),transparent 35%)}
+.grain{position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.hero .wrap{width:100%;position:relative;z-index:2;padding-top:110px;padding-bottom:90px}
+.hero-txt{max-width:600px}
+.hero h1 .nm{display:block;font-size:clamp(46px,6.2vw,84px);line-height:1.02;letter-spacing:-.02em}
+.hero h1 .role{display:block;margin-top:18px;font:600 15px/1.4 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:#E8D2C4}
+.hero h1 .role u{text-decoration:none;position:relative;white-space:nowrap}
+.hero h1 .role u::after{content:"";position:absolute;left:0;right:0;bottom:-5px;height:2px;border-radius:2px;background:var(--clay2);transform:scaleX(0);transform-origin:left;transition:transform .9s var(--ease) 1.3s}
+.hero.go h1 .role u::after{transform:scaleX(1)}
+.hero .sub{margin:26px 0 36px;font-size:18px;line-height:1.65;color:rgba(255,255,255,.86);max-width:520px}
+.hero .ctas{display:flex;flex-wrap:wrap;align-items:center;gap:22px}
+.hero .ctas .tlink{color:#fff}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:40px}
+.chip{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border-radius:999px;background:rgba(255,255,255,.1);box-shadow:inset 0 0 0 1px rgba(255,255,255,.22);font-size:13px;font-weight:600;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.chip i{width:6px;height:6px;border-radius:50%;background:var(--clay2)}
+.js .hero .w{display:inline-block;opacity:0;transform:translateY(.5em) rotate(2deg)}
+.js .hero.go .w{opacity:1;transform:none;transition:opacity .7s var(--ease),transform .9s var(--spring);transition-delay:calc(var(--i)*70ms + 150ms)}
+.js .hero .fx{opacity:0;transform:translateY(18px)}
+.js .hero.go .fx{opacity:1;transform:none;transition:opacity .7s var(--ease),transform .7s var(--ease);transition-delay:var(--d,0s)}
+.js .hero .chip{opacity:0;transform:scale(.7)}
+.js .hero.go .chip{opacity:1;transform:none;transition:opacity .5s,transform .6s var(--spring);transition-delay:calc(var(--i)*90ms + 1.1s)}
+.cue{position:absolute;left:50%;bottom:28px;z-index:3;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.7);transition:opacity .5s}
+.cue span{width:1px;height:44px;background:linear-gradient(rgba(255,255,255,.8),transparent);transform-origin:top}
+.cue.hide{opacity:0}
+/* hero living background (behind the text, over the photo's dark side) */
+.hbg{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+.hbg .orb{position:absolute;border-radius:50%;opacity:.55}
+.hbg .o1{width:52vmax;height:52vmax;left:-18vmax;top:-20vmax;background:radial-gradient(closest-side,rgba(126,140,116,.55),transparent)}
+.hbg .o2{width:38vmax;height:38vmax;left:8vmax;bottom:-22vmax;background:radial-gradient(closest-side,rgba(212,138,108,.32),transparent)}
+.hbg .breath{position:absolute;left:clamp(260px,34vw,520px);top:22%;width:300px;height:300px;margin:-150px 0 0 -150px;border-radius:50%;border:1px solid rgba(232,210,196,.28)}
+.hbg .breath.b2{width:460px;height:460px;margin:-230px 0 0 -230px;border-color:rgba(232,210,196,.14)}
+.hbg .spr{position:absolute;width:150px;height:150px;opacity:.28}
+.hbg .spr path{fill:none;stroke:#E8D2C4;stroke-width:.7;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1}
+.hero.go .hbg .spr path{animation:draw 2.4s var(--ease) forwards;animation-delay:calc(var(--i)*.25s + 1s)}
+.hbg .s1{left:4%;bottom:8%;transform:rotate(-12deg)}.hbg .s2{left:40%;top:10%;width:96px;height:96px;transform:rotate(18deg)}
+.hbg .dot{position:absolute;width:4px;height:4px;border-radius:50%;background:#E8D2C4;opacity:0}
+
+/* ---------- reveal contract ---------- */
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .5s var(--ease),transform .5s var(--ease);transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+
+/* ---------- proof strip: flip up from the floor ---------- */
+.proof{padding:0;margin-top:-64px;z-index:5}
+.proof .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;perspective:1000px}
+.pf{background:var(--card);border-radius:18px;padding:26px 24px;box-shadow:var(--sh-2);display:flex;flex-direction:column;gap:6px;min-height:150px}
+.pf .k{font:400 34px/1 var(--serif);color:var(--deep)}
+.pf .k small{font-size:18px;color:var(--gold);margin-left:6px;letter-spacing:2px}
+.pf .l{font-size:14px;color:var(--ink2);line-height:1.5}
+.pf .g{display:flex;align-items:center;gap:8px}
+.pf .g svg{width:22px;height:22px}
+.js .pf{opacity:0;transform:rotateX(-70deg) translateY(30px);transform-origin:50% 100%}
+.js .proof.in .pf{opacity:1;transform:none;transition:opacity .5s,transform .9s var(--spring);transition-delay:calc(var(--i)*110ms)}
+
+/* ---------- about: paragraphs one by one + timeline drawing ---------- */
+.about .cols{display:grid;grid-template-columns:1.05fr .95fr;gap:72px;align-items:start;margin-top:64px}
+.about .txt p{font-size:17px;color:var(--ink2)}
+.about .txt p:first-child{font:400 23px/1.5 var(--serif);color:var(--ink)}
+.js .about .txt p{opacity:0;transform:translateX(-18px)}
+.js .about .txt.in p{opacity:1;transform:none;transition:opacity .5s var(--ease),transform .6s var(--ease)}
+.js .about .txt.in p:nth-child(2){transition-delay:.12s}.js .about .txt.in p:nth-child(3){transition-delay:.24s}.js .about .txt.in p:nth-child(4){transition-delay:.36s}
+.pull{position:relative;margin:34px 0 0;padding:26px 28px 26px 32px;border-radius:16px;font:400 20px/1.5 var(--serif);color:var(--deep);overflow:hidden;isolation:isolate}
+.pull::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--blush);transform:scaleX(0);transform-origin:left;transition:transform .9s var(--ease) .3s}
+.pull::after{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--clay);transform:scaleY(0);transform-origin:top;transition:transform .7s var(--ease) .9s}
+.pull.in::before{transform:none}.pull.in::after{transform:none}
+.tl{position:relative;padding-left:34px;background:var(--card);border-radius:24px;padding:40px 40px 40px 70px;box-shadow:var(--sh-2)}
+.tl::before{content:"";position:absolute;left:40px;top:104px;bottom:52px;width:2px;background:var(--paper2)}
+.tl .line{position:absolute;left:40px;top:104px;bottom:52px;width:2px;background:linear-gradient(var(--sage),var(--clay));transform:scaleY(0);transform-origin:top;transition:transform 1.8s var(--ease)}
+.tl.in .line{transform:none}
+.tl h3{font-size:22px;margin-bottom:22px;margin-left:-30px}
+.st{position:relative;padding:0 0 22px}
+.st:last-child{padding-bottom:0}
+.st::before{content:"";position:absolute;left:-36px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--card);box-shadow:inset 0 0 0 3px var(--clay);transform:scale(0);transition:transform .5s var(--spring)}
+.tl.in .st::before{transform:none}
+.tl.in .st:nth-of-type(2)::before{transition-delay:.25s}.tl.in .st:nth-of-type(3)::before{transition-delay:.5s}.tl.in .st:nth-of-type(4)::before{transition-delay:.75s}.tl.in .st:nth-of-type(5)::before{transition-delay:1s}.tl.in .st:nth-of-type(6)::before{transition-delay:1.25s}
+.st b{display:block;font-size:15.5px;line-height:1.45}
+.st span{font-size:14px;color:var(--mute)}
+
+/* ---------- ticker ---------- */
+.tick{padding:34px 0;background:var(--deep);color:#E8D2C4;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.tick .row{display:flex;gap:48px;width:max-content;animation:tick 48s linear infinite}
+.tick span{font:400 26px/1 var(--serif);white-space:nowrap;display:flex;align-items:center;gap:48px}
+.tick span::after{content:"";width:7px;height:7px;border-radius:50%;background:var(--clay2)}
+@keyframes tick{to{transform:translateX(-50%)}}
+@media (hover:hover){.tick:hover .row{animation-play-state:paused}}
+
+/* ---------- approaches: cards dealt onto the table ---------- */
+.appr{background:var(--paper2);border-radius:56px 56px 0 0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:60px}
+.card{position:relative;background:var(--card);border-radius:var(--r);padding:34px 30px 32px;box-shadow:var(--sh-1);overflow:hidden;transform-style:preserve-3d;transition:box-shadow .4s var(--ease),transform .4s var(--ease)}
+.card::before{content:"";position:absolute;left:0;top:0;right:0;height:3px;background:linear-gradient(90deg,var(--sage),var(--clay));transform:scaleX(.18);transform-origin:left;transition:transform .5s var(--ease)}
+.card::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(360px circle at var(--mx,50%) var(--my,0%),rgba(212,138,108,.14),transparent 60%);opacity:0;transition:opacity .3s}
+.card .ic{width:52px;height:52px;border-radius:16px;background:var(--paper);display:flex;align-items:center;justify-content:center;color:var(--deep);margin-bottom:22px}
+.card .ic svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.card h3{margin-bottom:12px}
+.card p{color:var(--ink2);font-size:15.5px;margin:0}
+@media (hover:hover){.card:hover{box-shadow:var(--sh-2)}.card:hover::before{transform:none}.card:hover::after{opacity:1}}
+.js .deal .card{opacity:0;transform:translateY(60px) scale(.92) rotate(var(--rot,-3deg))}
+.js .deal.in .card{opacity:1;transform:none;transition:opacity .5s var(--ease),transform .8s var(--spring),box-shadow .4s;transition-delay:calc(var(--i)*60ms)}
+.card:nth-child(even){--rot:3deg}
+
+/* ---------- condition explorer (signature) ---------- */
+.help{background:var(--paper2)}
+.help .x{display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;margin-top:60px;align-items:stretch}
+.cl{display:flex;flex-direction:column;gap:6px;background:var(--card);border-radius:24px;padding:14px;box-shadow:var(--sh-1)}
+.cl button{display:flex;align-items:center;gap:14px;text-align:left;border:0;background:none;padding:13px 16px;border-radius:14px;font:600 15.5px/1.3 var(--sans);color:var(--ink);cursor:pointer;transition:background .3s,color .3s,transform .35s var(--spring)}
+.cl button i{font-style:normal;font:500 13px/1 var(--serif);color:var(--mute);width:22px}
+.cl button::after{content:"";margin-left:auto;width:8px;height:8px;border-top:1.5px solid currentColor;border-right:1.5px solid currentColor;transform:rotate(45deg);opacity:0;transition:opacity .3s,transform .3s}
+.cl button[aria-selected=true]{background:var(--deep);color:#fff}
+.cl button[aria-selected=true] i{color:#E8D2C4}
+.cl button[aria-selected=true]::after{opacity:1}
+@media (hover:hover){.cl button:not([aria-selected=true]):hover{background:var(--paper);transform:translateX(4px)}}
+.js .cl.rvl button{opacity:0;transform:translateX(-24px)}
+.js .cl.rvl.in button{opacity:1;transform:none;transition:opacity .45s,transform .5s var(--ease),background .3s,color .3s;transition-delay:calc(var(--i)*45ms)}
+.panel{position:relative;background:var(--deep);color:#fff;border-radius:28px;padding:52px 50px;box-shadow:var(--sh-3);overflow:hidden;isolation:isolate;min-height:100%}
+.panel .bg{position:absolute;inset:0;z-index:-1;pointer-events:none}
+.panel .bg .ring{position:absolute;right:-120px;top:-120px;width:420px;height:420px;border-radius:50%;border:1px solid rgba(232,210,196,.18)}
+.panel .bg .ring.r2{right:-60px;top:-60px;width:300px;height:300px;border-color:rgba(232,210,196,.12)}
+.panel .bg svg{position:absolute;right:30px;bottom:24px;width:180px;height:180px;opacity:.22}
+.panel .bg svg path{fill:none;stroke:#E8D2C4;stroke-width:.6;stroke-linecap:round}
+.panel .num{font:400 15px/1 var(--serif);color:#E8D2C4;letter-spacing:.1em}
+.panel h3{font-size:clamp(28px,2.8vw,38px);font-weight:400;margin:14px 0 20px}
+.panel p{color:rgba(255,255,255,.84);font-size:16.5px;max-width:560px}
+.panel .how{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 34px}
+.panel .how span{padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.1);box-shadow:inset 0 0 0 1px rgba(255,255,255,.2);font-size:13px;font-weight:600}
+.panel .inner{transition:opacity .35s var(--ease),transform .45s var(--ease)}
+.panel .inner.swap{opacity:0;transform:translateY(14px)}
+.help .note{margin-top:22px;font-size:13.5px;color:var(--mute);text-align:center}
+
+/* ---------- space: two photos, one wipe + one polaroid ---------- */
+.space .pair{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:60px}
+.ph{position:relative;margin:0;border-radius:22px;overflow:hidden;box-shadow:var(--sh-2);cursor:zoom-in;background:var(--paper2)}
+.ph img{width:100%;height:auto;aspect-ratio:1600/901;transition:transform .9s var(--ease)}
+.ph::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(0deg,rgba(47,62,54,.35),transparent 45%);pointer-events:none}
+.ph figcaption{position:absolute;left:22px;bottom:18px;z-index:2;color:#fff;font-weight:600;font-size:14px;letter-spacing:.02em}
+@media (hover:hover){.ph:hover img{transform:scale(1.04) rotate(.4deg)}}
+.wipe::after{content:"";position:absolute;inset:-2px;z-index:3;background:var(--sage);transform-origin:right;transition:transform 1.1s cubic-bezier(.7,0,.2,1)}
+.wipe.in::after{transform:scaleX(0)}
+.js .pola{opacity:0;transform:rotate(4deg) scale(.9) translateY(30px)}
+.js .pola.in{opacity:1;transform:none;transition:opacity .6s,transform 1s var(--spring) .2s}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+.fact{display:flex;gap:14px;align-items:center;background:var(--card);border-radius:16px;padding:18px 20px;box-shadow:var(--sh-1);font-size:15px;font-weight:600}
+.fact svg{width:26px;height:26px;flex:none;fill:none;stroke:var(--clay);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.js .facts .fact{opacity:0;transform:translateY(20px) scale(.96)}
+.js .facts.in .fact{opacity:1;transform:none;transition:opacity .45s,transform .6s var(--spring);transition-delay:calc(var(--i)*90ms)}
+
+/* ---------- reviews: slide from the right, stars light one by one ---------- */
+.rev{background:var(--deep);color:#fff;border-radius:56px;margin:0 16px}
+.rev .eyebrow{color:#E8D2C4}
+.rev .lead{color:rgba(255,255,255,.78)}
+.rhead{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;flex-wrap:wrap}
+.gbadge{display:inline-flex;align-items:center;gap:14px;background:#fff;color:var(--ink);border-radius:18px;padding:14px 20px;box-shadow:var(--sh-2);text-decoration:none}
+.gbadge svg{width:30px;height:30px}
+.gbadge b{font:500 28px/1 var(--serif)}
+.gbadge .st5{color:var(--gold);letter-spacing:2px;font-size:15px}
+.gbadge small{display:block;font-size:12px;color:var(--mute);font-weight:600}
+.rgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:56px}
+.rc{position:relative;background:#fff;color:var(--ink);border-radius:20px;padding:26px 24px 22px;box-shadow:0 20px 50px -24px rgba(0,0,0,.5);display:flex;flex-direction:column;overflow:hidden}
+.rc::before{content:"\201C";position:absolute;right:14px;top:-18px;font:400 120px/1 var(--serif);color:var(--blush);opacity:.7;pointer-events:none}
+.rc .stars{display:flex;gap:3px;margin-bottom:14px}
+.rc .stars svg{width:17px;height:17px;fill:var(--gold);transform:scale(0) rotate(-40deg)}
+.rc.in .stars svg{transform:none;transition:transform .45s var(--spring)}
+.rc.in .stars svg:nth-child(2){transition-delay:.08s}.rc.in .stars svg:nth-child(3){transition-delay:.16s}.rc.in .stars svg:nth-child(4){transition-delay:.24s}.rc.in .stars svg:nth-child(5){transition-delay:.32s}
+.no-js .rc .stars svg,.rc.static .stars svg{transform:none}
+.rc p{position:relative;font-size:14.5px;line-height:1.65;color:var(--ink2);margin:0 0 18px;flex:1}
+.rc .who{display:flex;align-items:center;gap:10px;font-weight:600;font-size:14px;border-top:1px solid var(--paper2);padding-top:14px}
+.rc .av{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:14px;flex:none}
+.rc .who svg{width:16px;height:16px;margin-left:auto;flex:none}
+.js .rc{opacity:0;transform:translateX(60px)}
+.js .rc.in{opacity:1;transform:none;transition:opacity .5s var(--ease),transform .7s var(--ease);transition-delay:calc(var(--i)*60ms)}
+.rmore{text-align:center;margin-top:44px}
+.rmore .btn{background:#fff;color:var(--ink)}
+
+/* ---------- FAQ ---------- */
+.faq .list{max-width:880px;margin:56px auto 0}
+.qa{border-bottom:1px solid rgba(31,38,35,.12)}
+.qa summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px 4px;font:500 19px/1.4 var(--serif);transition:transform .35s var(--ease),color .3s}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary i{flex:none;width:34px;height:34px;border-radius:50%;background:var(--paper2);position:relative;transition:background .3s,transform .4s var(--ease)}
+.qa summary i::before,.qa summary i::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:1.6px;background:var(--ink);transform:translate(-50%,-50%)}
+.qa summary i::after{transform:translate(-50%,-50%) rotate(90deg);transition:transform .4s var(--ease)}
+.qa[open] summary i{background:var(--clay);transform:rotate(180deg)}
+.qa[open] summary i::before,.qa[open] summary i::after{background:#fff}
+.qa[open] summary i::after{transform:translate(-50%,-50%) rotate(0)}
+@media (hover:hover){.qa summary:hover{transform:translateX(6px);color:var(--clay)}}
+.qa .a{overflow:hidden}
+.qa .a p{padding:0 4px 24px;color:var(--ink2);max-width:760px;margin:0}
+.qa[open] .a p{animation:unfold .5s var(--ease)}
+@keyframes unfold{from{opacity:0;transform:translateY(-8px)}}
+
+/* ---------- contact ---------- */
+.contact{background:var(--paper2);border-radius:56px 56px 0 0}
+.ct{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:60px;align-items:stretch}
+.cbox{background:var(--card);border-radius:26px;padding:40px;box-shadow:var(--sh-2);display:flex;flex-direction:column}
+.crow{display:flex;gap:16px;align-items:flex-start;padding:16px 0;border-bottom:1px solid var(--paper2);text-decoration:none}
+.crow:last-of-type{border-bottom:0}
+.crow .ci{width:44px;height:44px;border-radius:14px;background:var(--paper);display:flex;align-items:center;justify-content:center;flex:none;color:var(--clay)}
+.crow .ci svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.crow small{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);font-weight:600}
+.crow b{display:block;font-size:16.5px;font-weight:600}
+address{font-style:normal}
+.js .cbox .crow{opacity:0;transform:translateY(14px)}
+.js .cbox.in .crow{opacity:1;transform:none;transition:opacity .45s,transform .5s var(--ease);transition-delay:calc(var(--i)*80ms)}
+.cbox .btn{margin-top:26px;align-self:flex-start}
+.cbox.in .btn-clay{animation:pulse 1.4s var(--ease) .8s 2}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(176,89,60,.55)}100%{box-shadow:0 0 0 18px rgba(176,89,60,0)}}
+.dir{margin-top:22px;font-size:14.5px;color:var(--ink2)}
+.map{position:relative;border-radius:26px;overflow:hidden;box-shadow:var(--sh-2);min-height:460px;background:var(--paper)}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.map::after{content:"";position:absolute;inset:0;border-radius:26px;box-shadow:inset 0 0 0 2px var(--clay);pointer-events:none;clip-path:inset(0 100% 100% 0 round 26px);transition:clip-path 1.4s var(--ease)}
+.map.in::after{clip-path:inset(0 0 0 0 round 26px)}
+
+/* ---------- footer ---------- */
+.ftr{position:relative;isolation:isolate;background:var(--deep2);color:rgba(255,255,255,.8);padding:80px 0 110px;margin-top:-56px;border-radius:56px 56px 0 0;overflow:hidden}
+.ftr .wrap{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px}
+.ftr .brand{color:#fff}
+.ftr .brand .mark{animation:none}
+.ftr h4{margin:0 0 14px;font:600 12px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:#E8D2C4}
+.ftr a{text-decoration:none}
+.ftr p,.ftr li{font-size:14.5px}
+.ftr ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.ftr .bot{grid-column:1/-1;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid rgba(255,255,255,.12);padding-top:24px;margin-top:10px;font-size:13px}
+.ftr .bot a{border-bottom:1px solid rgba(255,255,255,.3)}
+.ftr .bigmark{position:absolute;right:-90px;bottom:-110px;width:420px;height:420px;opacity:.07;z-index:-1}
+.ftr .bigmark circle,.ftr .bigmark path{fill:none;stroke:#fff;stroke-width:.5}
+
+/* ---------- mobile bar / top button ---------- */
+.mbar{position:fixed;left:12px;right:12px;bottom:12px;z-index:45;display:none;grid-template-columns:repeat(3,1fr);gap:6px;padding:6px;border-radius:20px;background:rgba(36,48,41,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:0 16px 40px -12px rgba(0,0,0,.5);transform:translateY(140%);transition:transform .5s var(--spring)}
+.mbar.on{transform:none}
+.mbar a{display:flex;flex-direction:column;align-items:center;gap:4px;padding:10px 4px;border-radius:14px;color:#fff;text-decoration:none;font-size:12px;font-weight:600}
+.mbar a:first-child{background:var(--clay)}
+.mbar svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.totop{position:fixed;right:24px;bottom:24px;z-index:44;width:56px;height:56px;border-radius:50%;border:0;background:var(--card);box-shadow:var(--sh-2);cursor:pointer;opacity:0;transform:translateY(20px) scale(.8);transition:opacity .4s,transform .5s var(--spring);display:flex;align-items:center;justify-content:center;color:var(--deep)}
+.totop.on{opacity:1;transform:none}
+.totop svg.ring{position:absolute;inset:0;transform:rotate(-90deg)}
+.totop svg.ring circle{fill:none;stroke:var(--clay);stroke-width:2;stroke-dasharray:1;stroke-dashoffset:calc(1 - var(--p,0))}
+.totop svg.ar{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+
+/* ---------- lightbox ---------- */
+.lb{position:fixed;inset:0;z-index:120;background:rgba(18,24,21,.92);display:flex;align-items:center;justify-content:center;padding:4vmin;opacity:0;visibility:hidden;transition:opacity .35s}
+.lb.open{opacity:1;visibility:visible}
+.lb img{max-width:100%;max-height:88vh;width:auto;height:auto;border-radius:14px;box-shadow:0 40px 100px -30px #000;transform:scale(.9);transition:transform .5s var(--spring)}
+.lb.open img{transform:none}
+.lb button{position:absolute;top:18px;right:18px;width:50px;height:50px;border-radius:50%;border:1px solid rgba(255,255,255,.4);background:rgba(0,0,0,.3);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.lb button svg{width:22px;height:22px}
+
+/* ---------- ambient layer, whole site ---------- */
+.amb{position:absolute;inset:0;z-index:-1;overflow:hidden;border-radius:inherit;pointer-events:none}
+.amb .aw{position:absolute;border-radius:50%;width:44vmax;height:44vmax;background:radial-gradient(closest-side,var(--c),transparent);opacity:.5}
+.amb .aw.wa{left:-16vmax;top:-14vmax}.amb .aw.wb{right:-16vmax;bottom:-16vmax}
+.amb .dg{position:absolute;inset:-40px;background-image:radial-gradient(rgba(47,62,54,.16) 1px,transparent 1.4px);background-size:26px 26px;-webkit-mask-image:radial-gradient(60% 70% at 80% 30%,#000,transparent);mask-image:radial-gradient(60% 70% at 80% 30%,#000,transparent)}
+.amb .rg{position:absolute;left:var(--x);top:var(--y);width:var(--s);height:var(--s);margin:calc(var(--s)/-2) 0 0 calc(var(--s)/-2);border-radius:50%;border:1px solid var(--c);opacity:0}
+.amb .sp{position:absolute;left:var(--x);top:var(--y);width:var(--s);height:var(--s);opacity:.35;transform:rotate(var(--r))}
+.amb .sp path{fill:none;stroke:var(--c);stroke-width:.6;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1}
+.amb .ln{position:absolute;left:0;width:100%;height:180px;top:var(--y);opacity:.5}
+.amb .ln path{fill:none;stroke:var(--c);stroke-width:1;vector-effect:non-scaling-stroke;stroke-dasharray:1;stroke-dashoffset:1}
+@media (prefers-reduced-motion:no-preference){
+ .hero-media img{animation:kb 22s ease-in-out infinite alternate}
+ .hbg .o1{animation:awA 26s ease-in-out infinite alternate}.hbg .o2{animation:awB 32s ease-in-out infinite alternate}
+ .hbg .breath{animation:breath 10s ease-in-out infinite}.hbg .breath.b2{animation-delay:-5s}
+ .hbg .dot{animation:dotUp var(--d) linear var(--dl) infinite}
+ .cue span{animation:cue 2.2s ease-in-out infinite}
+ .amb .aw.wa{animation:awA 28s ease-in-out infinite alternate}.amb .aw.wb{animation:awB 34s ease-in-out infinite alternate}
+ .amb .dg{animation:dg 40s linear infinite}
+ .amb .rg{animation:rg var(--d) ease-out var(--dl) infinite}
+ .amb.on .sp path{animation:draw 4s var(--ease) forwards}
+ .amb .sp{animation:sway 18s ease-in-out infinite alternate}
+ .amb.on .ln path{animation:draw 3.2s var(--ease) forwards}
+ .amb .ln{animation:float 16s ease-in-out infinite alternate}
+ .panel .bg .ring{animation:breath 12s ease-in-out infinite}.panel .bg .ring.r2{animation-delay:-6s}
+ .ftr .bigmark{animation:mkSpin 140s linear infinite}
+ .amb.off *,.hbg.off *{animation-play-state:paused!important}
+}
+@keyframes kb{from{transform:scale(1.02)}to{transform:scale(1.1) translate(-1.2%,.6%)}}
+@keyframes awA{to{transform:translate(8vmax,6vmax) scale(1.12)}}
+@keyframes awB{to{transform:translate(-7vmax,-5vmax) scale(.9)}}
+@keyframes breath{0%,100%{transform:scale(.86);opacity:.5}45%{transform:scale(1.08);opacity:1}}
+@keyframes dotUp{0%{transform:translateY(0);opacity:0}15%{opacity:.6}100%{transform:translateY(-70vh);opacity:0}}
+@keyframes cue{0%{transform:scaleY(0)}50%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
+@keyframes dg{to{transform:translate(26px,26px)}}
+@keyframes rg{0%{transform:scale(.3);opacity:0}25%{opacity:.8}100%{transform:scale(1.25);opacity:0}}
+@keyframes sway{to{transform:rotate(calc(var(--r) + 8deg)) translateY(-14px)}}
+@keyframes float{to{transform:translateY(-14px)}}
+@media (prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ .js .rv,.js .pf,.js .card,.js .rc,.js .fact,.js .cl button,.js .about .txt p,.js .pola,.js .cbox .crow,.js .hero .w,.js .hero .fx,.js .hero .chip{opacity:1!important;transform:none!important;transition:none!important}
+ .wipe::after{display:none}.tl .line{transform:none}.st::before{transform:none!important}.rc .stars svg{transform:none!important}.pull::before,.pull::after{transform:none}
+ .tick .row{animation:none}.amb .rg,.hbg .dot{display:none}
+}
+
+/* ---------- responsive ---------- */
+@media (max-width:1080px){
+ .nav a:not(.btn),.nav .btn{display:none}.burger{display:flex}
+ .proof .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .about .cols,.help .x,.ct{grid-template-columns:1fr;gap:28px}
+ .cards{grid-template-columns:repeat(2,1fr)}
+ .rgrid{grid-template-columns:repeat(2,1fr)}
+ .ftr .wrap{grid-template-columns:1fr 1fr}.ftr .wrap>div:first-child{grid-column:1/-1}
+}
+@media (max-width:760px){
+ body{font-size:15.5px}
+ .wrap{padding:0 20px}
+ .sec{padding:84px 0}
+ .hdr .wrap{height:70px}
+ .brand small{display:none}.brand b{font-size:17px}.mark{width:36px;height:36px}
+ .hero{min-height:auto;display:block;padding:70px 0 0}
+ .hero-media{position:relative;inset:auto;height:auto;aspect-ratio:1600/901}
+ .hero-media img{object-position:50% 40%}
+ .hero-shade{background:linear-gradient(0deg,var(--deep2) 0%,rgba(36,48,41,0) 30%)}
+ .hero-shade{inset:70px 0 auto;height:calc(100vw*901/1600)}
+ .hero .wrap{padding-top:10px;padding-bottom:110px}
+ .hbg .breath{left:80%;top:auto;bottom:10%}
+ .cue{display:none}
+ .hero .sub{font-size:16.5px}
+ .proof{margin-top:-60px}
+ .proof .grid{gap:12px}.pf{padding:20px 18px;min-height:0}.pf .k{font-size:28px}.pf .l{font-size:13px}
+ .cards,.rgrid,.space .pair,.facts{grid-template-columns:1fr}
+ .panel{padding:36px 26px}
+ .tl{padding:32px 24px 32px 58px}.tl::before,.tl .line{left:30px}.st::before{left:-35px}
+ .appr,.contact{border-radius:36px 36px 0 0}.rev{border-radius:36px;margin:0 8px}
+ .ftr{border-radius:36px 36px 0 0}.ftr .wrap{grid-template-columns:1fr}
+ .mbar{display:grid}.totop{display:none}
+ .map{min-height:340px}
+ .cbox{padding:28px 22px}
+ .tick span{font-size:21px}
+ .rhead{align-items:flex-start}
+}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":["Physician","MedicalBusiness"],"@id":"#practice","name":"Νικολαΐδου Ελένη, Ψυχίατρος-Ψυχοθεραπεύτρια","alternateName":"Eleni Nikolaidou, Psychiatrist-Psychotherapist","medicalSpecialty":"Psychiatric","image":"assets/img/psychiatros-trikala-nikolaidou.webp","telephone":"+30 2431 102430","address":{"@type":"PostalAddress","streetAddress":"Κολοκοτρώνη 29","addressLocality":"Τρίκαλα","postalCode":"421 00","addressCountry":"GR"},"geo":{"@type":"GeoCoordinates","latitude":39.5569852,"longitude":21.7715274},"areaServed":["Τρίκαλα","Καλαμπάκα","Νομός Τρικάλων","Θεσσαλία"],"availableLanguage":["el","en"],"isAccessibleForFree":false,"paymentAccepted":"Cash, Credit Card","sameAs":["https://www.doctoranytime.gr/d/Psychiatros/nikolaidou-eleni","https://www.facebook.com/profile.php?id=100090853848666"],"founder":{"@id":"#person"}},
+{"@type":"Person","@id":"#person","name":"Ελένη Νικολαΐδου","jobTitle":"Ψυχίατρος - Ψυχοθεραπεύτρια","alumniOf":{"@type":"CollegeOrUniversity","name":"Ιατρική Σχολή Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης"},"knowsLanguage":["el","en"],"hasCredential":{"@type":"EducationalOccupationalCredential","credentialCategory":"Ειδικότητα Ψυχιατρικής","recognizedBy":{"@type":"Hospital","name":"Πανεπιστημιακό Νοσοκομείο ΑΧΕΠΑ"}}},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Ποια είναι η διαφορά ψυχιάτρου και ψυχολόγου;","acceptedAnswer":{"@type":"Answer","text":"Ο ψυχίατρος είναι ιατρός με ειδικότητα στην ψυχιατρική: μπορεί να κάνει διάγνωση, να συνταγογραφήσει φάρμακα όταν χρειάζονται και να εκδώσει ιατρικές βεβαιώσεις. Η κα Νικολαΐδου είναι επίσης εκπαιδευμένη ψυχοθεραπεύτρια, οπότε μπορείτε να λάβετε ψυχοθεραπεία, φαρμακοθεραπεία ή συνδυασμό τους από τον ίδιο άνθρωπο."}},
+{"@type":"Question","name":"Πόσο διαρκεί η πρώτη επίσκεψη;","acceptedAnswer":{"@type":"Answer","text":"Η επίσκεψη διαρκεί περίπου 60 λεπτά. Στην πρώτη συνάντηση συζητάμε με ηρεμία τι σας απασχολεί, πώς ξεκίνησε και πώς επηρεάζει την καθημερινότητά σας, ώστε να σχεδιάσουμε μαζί τον τρόπο αντιμετώπισης που ταιριάζει σε εσάς."}},
+{"@type":"Question","name":"Θα χρειαστεί οπωσδήποτε να πάρω φάρμακα;","acceptedAnswer":{"@type":"Answer","text":"Όχι. Η θεραπεία είναι εξατομικευμένη και καθορίζεται με βάση τις ανάγκες και τις επιθυμίες σας. Σε πολλές περιπτώσεις αρκεί η ψυχοθεραπεία. Όταν η φαρμακοθεραπεία μπορεί να βοηθήσει, σας εξηγείται αναλυτικά γιατί, πώς λειτουργεί και τι να περιμένετε, και η απόφαση παίρνεται μαζί."}},
+{"@type":"Question","name":"Γίνονται συνεδρίες online;","acceptedAnswer":{"@type":"Answer","text":"Ναι. Υπάρχει δυνατότητα συνεδριών μέσω διαδικτύου, κάτι που βοηθά όσους μένουν εκτός Τρικάλων, ταξιδεύουν συχνά ή δυσκολεύονται να μετακινηθούν. Η ποιότητα και η εμπιστευτικότητα της συνεδρίας είναι ίδιες με εκείνες στο ιατρείο."}},
+{"@type":"Question","name":"Γίνονται κατ' οίκον επισκέψεις;","acceptedAnswer":{"@type":"Answer","text":"Ναι, υπάρχει δυνατότητα για κατ' οίκον επισκέψεις, για παράδειγμα σε ηλικιωμένους ή σε ανθρώπους που δεν μπορούν να έρθουν στο ιατρείο. Επικοινωνήστε τηλεφωνικά για να συζητήσουμε την περίπτωσή σας και να κανονίσουμε την επίσκεψη."}},
+{"@type":"Question","name":"Είναι όσα συζητάμε εμπιστευτικά;","acceptedAnswer":{"@type":"Answer","text":"Ναι. Ό,τι συζητείται στη συνεδρία καλύπτεται από το ιατρικό απόρρητο και δεν κοινοποιείται σε κανέναν χωρίς τη δική σας συγκατάθεση. Ένα ασφαλές, διακριτικό περιβάλλον είναι η βάση κάθε θεραπευτικής σχέσης."}},
+{"@type":"Question","name":"Εκδίδετε ηλεκτρονικές συνταγές και πιστοποιητικά υγείας;","acceptedAnswer":{"@type":"Answer","text":"Ναι. Στο ιατρείο εκδίδονται ηλεκτρονικές συνταγές, καθώς και πιστοποιητικά ψυχικής υγείας που ζητούνται για εργασία. Πείτε μας τι χρειάζεστε όταν κλείνετε το ραντεβού, ώστε να έχετε μαζί σας ό,τι απαιτείται."}},
+{"@type":"Question","name":"Πώς μπορώ να πληρώσω και πώς ακυρώνω ένα ραντεβού;","acceptedAnswer":{"@type":"Answer","text":"Η πληρωμή γίνεται με κάρτα ή μετρητά. Αν δεν μπορείτε να έρθετε, μπορείτε να ακυρώσετε το ραντεβού έως 3 ώρες πριν. Το ιατρείο διαθέτει πρόσβαση για άτομα με αναπηρία και υπάρχει εύκολη στάθμευση στην περιοχή."}}
+]}
+]}
+</script>
+</head>
+<body id="top">
+<a class="skip" href="#main" data-en="Skip to content">Μετάβαση στο περιεχόμενο</a>
+<div class="prog" aria-hidden="true"></div>
+
+<div class="intro" id="intro" aria-hidden="true">
+ <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="22.5" pathLength="1"/><path pathLength="1" d="M23.5 41 C23.6 30 25 18.5 30.5 6.5"/><path pathLength="1" d="M24 32.5 C17.5 31.8 13.6 27.6 12.8 22.6 C19 22.8 22.8 26.6 24 32.5Z"/><path pathLength="1" d="M24.8 25 C30.6 24.1 34.4 20 35.4 14.8 C29.6 15 25.9 19 24.8 25Z"/><path pathLength="1" d="M26.3 17.2 C21.6 16.2 19.1 12.7 18.8 9 C23.2 9.6 26 12.9 26.3 17.2Z"/><path pathLength="1" d="M28.6 10.6 C32 9.8 34 7.2 34.4 4.6 C31 5 28.9 7.4 28.6 10.6Z"/></svg>
+ <div class="nm" data-en="Eleni Nikolaidou">Ελένη Νικολαΐδου</div>
+</div>
+
+<header class="hdr" id="hdr">
+ <div class="wrap">
+  <a class="brand" href="#top" aria-label="Ελένη Νικολαΐδου — αρχή σελίδας" data-en-aria="Eleni Nikolaidou — back to top">
+   <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22.5"/><path d="M23.5 41 C23.6 30 25 18.5 30.5 6.5"/><path d="M24 32.5 C17.5 31.8 13.6 27.6 12.8 22.6 C19 22.8 22.8 26.6 24 32.5Z"/><path d="M24.8 25 C30.6 24.1 34.4 20 35.4 14.8 C29.6 15 25.9 19 24.8 25Z"/><path d="M26.3 17.2 C21.6 16.2 19.1 12.7 18.8 9 C23.2 9.6 26 12.9 26.3 17.2Z"/><path d="M28.6 10.6 C32 9.8 34 7.2 34.4 4.6 C31 5 28.9 7.4 28.6 10.6Z"/></svg>
+   <span><b data-en="Eleni Nikolaidou">Ελένη Νικολαΐδου</b><small data-en="Psychiatrist · Psychotherapist">Ψυχίατρος · Ψυχοθεραπεύτρια</small></span>
+  </a>
+  <nav class="nav" aria-label="Κύρια πλοήγηση" data-en-aria="Main navigation">
+   <a href="#about" data-en="About">Σχετικά</a>
+   <a href="#therapy" data-en="Therapy">Θεραπεία</a>
+   <a href="#help" data-en="How I help">Πώς βοηθώ</a>
+   <a href="#reviews" data-en="Reviews">Κριτικές</a>
+   <a href="#contact" data-en="Contact">Επικοινωνία</a>
+   <div class="lang" role="group" aria-label="Γλώσσα / Language">
+    <button type="button" data-lang="el" aria-pressed="true"><span class="flag" aria-hidden="true"><svg viewBox="0 0 27 18" preserveAspectRatio="xMidYMid slice"><rect width="27" height="18" fill="#0D5EAF"/><path d="M0 3h27M0 9h27M0 15h27" stroke="#fff" stroke-width="2"/><rect width="10" height="10" fill="#0D5EAF"/><path d="M5 0v10M0 5h10" stroke="#fff" stroke-width="2"/></svg></span>EL</button>
+    <button type="button" data-lang="en" aria-pressed="false"><span class="flag" aria-hidden="true"><svg viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice"><clipPath id="uk1"><path d="M0 0v30h60V0z"/></clipPath><g clip-path="url(#uk1)"><path d="M0 0v30h60V0z" fill="#012169"/><path d="M0 0l60 30m0-30L0 30" stroke="#fff" stroke-width="6"/><path d="M0 0l60 30m0-30L0 30" stroke="#C8102E" stroke-width="4"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></g></svg></span>EN</button>
+   </div>
+   <a class="btn btn-clay" href="tel:+302431102430"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span data-en="Book a visit">Ραντεβού</span></a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Άνοιγμα μενού" data-en-aria="Open menu" aria-expanded="false" aria-controls="mnav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 8h16M4 16h16"/></svg></button>
+ </div>
+</header>
+
+<div class="mnav" id="mnav" aria-hidden="true">
+ <div class="top">
+  <a class="brand" href="#top" data-close aria-label="Αρχή σελίδας" data-en-aria="Back to top"><svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22.5"/><path d="M23.5 41 C23.6 30 25 18.5 30.5 6.5"/><path d="M24 32.5 C17.5 31.8 13.6 27.6 12.8 22.6 C19 22.8 22.8 26.6 24 32.5Z"/><path d="M24.8 25 C30.6 24.1 34.4 20 35.4 14.8 C29.6 15 25.9 19 24.8 25Z"/><path d="M26.3 17.2 C21.6 16.2 19.1 12.7 18.8 9 C23.2 9.6 26 12.9 26.3 17.2Z"/><path d="M28.6 10.6 C32 9.8 34 7.2 34.4 4.6 C31 5 28.9 7.4 28.6 10.6Z"/></svg><span><b data-en="Eleni Nikolaidou">Ελένη Νικολαΐδου</b></span></a>
+  <button class="x" id="mclose" aria-label="Κλείσιμο μενού" data-en-aria="Close menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+ </div>
+ <nav aria-label="Μενού κινητού" data-en-aria="Mobile menu">
+  <a href="#about" data-close data-en="About">Σχετικά</a>
+  <a href="#therapy" data-close data-en="Therapy">Θεραπεία</a>
+  <a href="#help" data-close data-en="How I help">Πώς βοηθώ</a>
+  <a href="#space" data-close data-en="The practice">Ο χώρος</a>
+  <a href="#reviews" data-close data-en="Reviews">Κριτικές</a>
+  <a href="#contact" data-close data-en="Contact">Επικοινωνία</a>
+ </nav>
+ <div class="lang" role="group" aria-label="Γλώσσα / Language">
+  <button type="button" data-lang="el" aria-pressed="true"><span class="flag" aria-hidden="true"><svg viewBox="0 0 27 18" preserveAspectRatio="xMidYMid slice"><rect width="27" height="18" fill="#0D5EAF"/><path d="M0 3h27M0 9h27M0 15h27" stroke="#fff" stroke-width="2"/><rect width="10" height="10" fill="#0D5EAF"/><path d="M5 0v10M0 5h10" stroke="#fff" stroke-width="2"/></svg></span>EL</button>
+  <button type="button" data-lang="en" aria-pressed="false"><span class="flag" aria-hidden="true"><svg viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice"><clipPath id="uk2"><path d="M0 0v30h60V0z"/></clipPath><g clip-path="url(#uk2)"><path d="M0 0v30h60V0z" fill="#012169"/><path d="M0 0l60 30m0-30L0 30" stroke="#fff" stroke-width="6"/><path d="M0 0l60 30m0-30L0 30" stroke="#C8102E" stroke-width="4"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></g></svg></span>EN</button>
+ </div>
+ <a class="btn btn-clay" href="tel:+302431102430"><span data-en="Call 2431 102430">Κλήση 2431 102430</span></a>
+</div>
+
+<main id="main">
+<!-- ================= HERO ================= -->
+<section class="hero" id="hero">
+ <div class="hero-media"><picture><img src="assets/img/psychiatros-trikala-nikolaidou.webp" srcset="assets/img/psychiatros-trikala-nikolaidou-900.webp 900w, assets/img/psychiatros-trikala-nikolaidou.webp 1600w" sizes="100vw" width="1600" height="901" alt="Η ψυχίατρος Ελένη Νικολαΐδου στο γραφείο του ιατρείου της στα Τρίκαλα" data-en-alt="Psychiatrist Eleni Nikolaidou at her desk in her practice in Trikala" fetchpriority="high"></picture></div>
+ <div class="hero-shade"></div>
+ <div class="grain"></div>
+ <div class="hbg" aria-hidden="true">
+  <div class="orb o1"></div><div class="orb o2"></div>
+  <div class="breath"></div><div class="breath b2"></div>
+  <svg class="spr s1" viewBox="0 0 48 48" style="--i:0"><path pathLength="1" d="M23.5 41 C23.6 30 25 18.5 30.5 6.5"/><path pathLength="1" d="M24 32.5 C17.5 31.8 13.6 27.6 12.8 22.6 C19 22.8 22.8 26.6 24 32.5Z"/><path pathLength="1" d="M24.8 25 C30.6 24.1 34.4 20 35.4 14.8 C29.6 15 25.9 19 24.8 25Z"/><path pathLength="1" d="M26.3 17.2 C21.6 16.2 19.1 12.7 18.8 9 C23.2 9.6 26 12.9 26.3 17.2Z"/></svg>
+  <svg class="spr s2" viewBox="0 0 48 48" style="--i:2"><path pathLength="1" d="M23.5 41 C23.6 30 25 18.5 30.5 6.5"/><path pathLength="1" d="M24.8 25 C30.6 24.1 34.4 20 35.4 14.8 C29.6 15 25.9 19 24.8 25Z"/><path pathLength="1" d="M28.6 10.6 C32 9.8 34 7.2 34.4 4.6 C31 5 28.9 7.4 28.6 10.6Z"/></svg>
+ </div>
+ <div class="wrap">
+  <div class="hero-txt">
+   <p class="eyebrow fx" style="--d:.05s;color:#E8D2C4" data-en="Private practice in Trikala">Ιδιωτικό ιατρείο στα Τρίκαλα</p>
+   <h1><span class="nm" data-split data-en="Eleni Nikolaidou">Ελένη Νικολαΐδου</span><span class="role fx" style="--d:.7s" data-en="Psychiatrist – Psychotherapist in <u>Trikala</u>">Ψυχίατρος – Ψυχοθεραπεύτρια στα <u>Τρίκαλα</u></span></h1>
+   <p class="sub fx" style="--d:.85s" data-en="Psychotherapy, medication or a combination of both — a personal plan built around your needs, at the practice, at home or online.">Ψυχοθεραπεία, φαρμακοθεραπεία ή συνδυασμός τους — με θεραπευτικό πλάνο που σχεδιάζεται γύρω από τις δικές σας ανάγκες, στο ιατρείο, κατ' οίκον ή online.</p>
+   <div class="ctas fx" style="--d:1s">
+    <a class="btn btn-clay mag" href="tel:+302431102430"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span data-en="Book an appointment">Κλείστε ραντεβού</span></a>
+    <a class="tlink" href="#help" data-en="How I can help">Πώς μπορώ να βοηθήσω</a>
+   </div>
+   <div class="chips">
+    <span class="chip" style="--i:0"><i></i><span data-en="Psychotherapy">Ψυχοθεραπεία</span></span>
+    <span class="chip" style="--i:1"><i></i><span data-en="Medication">Φαρμακοθεραπεία</span></span>
+    <span class="chip" style="--i:2"><i></i><span data-en="Home visits">Κατ' οίκον</span></span>
+    <span class="chip" style="--i:3"><i></i><span data-en="Online sessions">Online συνεδρίες</span></span>
+   </div>
+  </div>
+ </div>
+ <a class="cue" href="#about" aria-label="Συνέχεια" data-en-aria="Scroll"><span></span></a>
+</section>
+
+<!-- ================= PROOF ================= -->
+<section class="proof" aria-label="Πιστοποιήσεις" data-en-aria="Credentials">
+ <div class="wrap grid">
+  <div class="pf" style="--i:0"><div class="k" data-en="AUTh">ΑΠΘ</div><div class="l" data-en="Medical degree, Aristotle University of Thessaloniki">Πτυχίο Ιατρικής, Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης</div></div>
+  <div class="pf" style="--i:1"><div class="k" data-en="AHEPA">ΑΧΕΠΑ</div><div class="l" data-en="Psychiatry specialty, 3rd University Psychiatric Clinic">Ειδικότητα Ψυχιατρικής, Γ' Πανεπιστημιακή Ψυχιατρική Κλινική</div></div>
+  <div class="pf" style="--i:2"><div class="k">UK</div><div class="l" data-en="Clinical experience at Fountain Way Hospital">Κλινική εμπειρία στο Fountain Way Hospital</div></div>
+  <div class="pf" style="--i:3"><div class="k g"><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg><span data-count="5" data-dec="1">5,0</span><small>★★★★★</small></div><div class="l" data-en="Rated by patients on Google">Αξιολόγηση ασθενών στο Google</div></div>
+ </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="sec about" id="about" data-amb="rings">
+ <div class="wrap">
+  <div class="center rv">
+   <p class="eyebrow" data-en="About">Σχετικά</p>
+   <h2 data-en="A psychiatrist who listens first">Ψυχίατρος που πρώτα ακούει</h2>
+  </div>
+  <div class="cols">
+   <div>
+    <div class="txt rvx">
+     <p data-en="Eleni Nikolaidou is a psychiatrist and psychotherapist with a private practice in Trikala. She is a graduate of the Medical School of the Aristotle University of Thessaloniki.">Η Ελένη Νικολαΐδου είναι Ψυχίατρος - Ψυχοθεραπεύτρια και διατηρεί ιδιωτικό ιατρείο στα Τρίκαλα. Είναι απόφοιτος της Ιατρικής Σχολής του Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης.</p>
+     <p data-en="She began her specialty at the psychiatric clinic of the State Hospital of Leros and completed it at the 3rd Psychiatric Clinic of AHEPA University Hospital in Thessaloniki. She served as a rural doctor at the Pagoneri regional clinic of the Nevrokopi Health Centre.">Ειδικεύτηκε αρχικά στην ψυχιατρική κλινική του Κρατικού Θεραπευτηρίου Λέρου και ολοκλήρωσε την ειδικότητα στη Γ' Ψυχιατρική Κλινική του Πανεπιστημιακού Νοσοκομείου Θεσσαλονίκης ΑΧΕΠΑ. Υπηρέτησε ως αγροτική ιατρός στο περιφερειακό ιατρείο Παγονερίου του Κέντρου Υγείας Νευροκοπίου.</p>
+     <p data-en="She gained clinical experience in the United Kingdom at Fountain Way Hospital — an adult psychiatric clinic, a community psychiatric unit and two old-age psychiatry wards caring for people over 65 with dementia, psychosis, depression, anxiety and sleep disorders.">Απέκτησε κλινική εμπειρία στο Ηνωμένο Βασίλειο, στο Fountain Way Hospital — μια μονάδα με ψυχιατρική κλινική ενηλίκων, κοινοτική ψυχιατρική μονάδα και δύο ψυχογηριατρικές κλινικές για ασθενείς άνω των 65 ετών με άνοια, ψύχωση, κατάθλιψη, αγχώδεις διαταραχές και διαταραχές ύπνου.</p>
+     <p data-en="During her specialty she received many years of training in Cognitive-Behavioural Therapy (CBT), Cognitive Analytic Therapy and Psychodynamic Psychotherapy.">Κατά τη διάρκεια της ειδικότητας έλαβε πολυετή εκπαίδευση στη Γνωσιακή - Συμπεριφορική Ψυχοθεραπεία (CBT), στη Γνωστική - Αναλυτική Ψυχοθεραπεία και στην Ψυχοδυναμική Ψυχοθεραπεία.</p>
+    </div>
+    <p class="pull" data-en="“Treatment is personal: it is shaped around each person’s needs and wishes.”">«Η θεραπευτική αντιμετώπιση είναι εξατομικευμένη και καθορίζεται με βάση τις ανάγκες και τις επιθυμίες του κάθε ανθρώπου.»</p>
+   </div>
+   <div class="tl" id="tl">
+    <div class="line"></div>
+    <h3 data-en="Her path">Η διαδρομή της</h3>
+    <div class="st"><b data-en="Medical School, Aristotle University of Thessaloniki">Ιατρική Σχολή, Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης</b><span data-en="Degree in Medicine">Πτυχίο Ιατρικής</span></div>
+    <div class="st"><b data-en="Rural doctor, Pagoneri regional clinic">Αγροτική ιατρός, Περιφερειακό Ιατρείο Παγονερίου</b><span data-en="Nevrokopi Health Centre">Κέντρο Υγείας Νευροκοπίου</span></div>
+    <div class="st"><b data-en="Psychiatry, State Hospital of Leros">Ψυχιατρική, Κρατικό Θεραπευτήριο Λέρου</b><span data-en="Start of specialty">Έναρξη ειδικότητας</span></div>
+    <div class="st"><b data-en="3rd Psychiatric Clinic, AHEPA University Hospital">Γ' Ψυχιατρική Κλινική, Π.Γ.Ν. ΑΧΕΠΑ</b><span data-en="Completion of specialty · training in CBT, CAT and psychodynamic therapy">Ολοκλήρωση ειδικότητας · εκπαίδευση σε CBT, γνωστική-αναλυτική και ψυχοδυναμική θεραπεία</span></div>
+    <div class="st"><b>Fountain Way Hospital, UK</b><span data-en="Adult, community and old-age psychiatry">Ψυχιατρική ενηλίκων, κοινοτική και ψυχογηριατρική</span></div>
+    <div class="st"><b data-en="Private practice, Trikala">Ιδιωτικό ιατρείο, Τρίκαλα</b><span data-en="Psychiatrist – Psychotherapist">Ψυχίατρος – Ψυχοθεραπεύτρια</span></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<div class="tick" aria-hidden="true"><div class="row" id="tickrow">
+ <span data-en="Depression">Κατάθλιψη</span><span data-en="Anxiety">Άγχος</span><span data-en="Panic attacks">Κρίσεις πανικού</span><span data-en="Insomnia">Αϋπνία</span><span data-en="OCD">Ιδεοψυχαναγκαστική διαταραχή</span><span data-en="Bipolar disorder">Διπολική διαταραχή</span><span data-en="Eating disorders">Διατροφικές διαταραχές</span><span data-en="Old-age psychiatry">Ψυχογηριατρική</span>
+</div></div>
+
+<!-- ================= APPROACHES ================= -->
+<section class="sec appr" id="therapy" data-amb="grid">
+ <div class="wrap">
+  <div class="center rv">
+   <p class="eyebrow" data-en="Therapy">Θεραπεία</p>
+   <h2 data-en="Psychotherapy, medication or both">Ψυχοθεραπεία, φαρμακοθεραπεία ή συνδυασμός</h2>
+   <p class="lead" data-en="Care across the whole spectrum of mental health. The approach is chosen together with you and adjusted as things change.">Φροντίδα για όλο το φάσμα της ψυχικής υγείας. Ο τρόπος αντιμετώπισης επιλέγεται μαζί σας και προσαρμόζεται όσο προχωράμε.</p>
+  </div>
+  <div class="cards deal tilt">
+   <article class="card" style="--i:0"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 1 3.3 6.5L4 20l1.3-3.4A8 8 0 0 1 4 12z"/><path d="M9 11h6M9 14h4"/></svg></div><h3 data-en="Cognitive-Behavioural (CBT)">Γνωσιακή-Συμπεριφορική (CBT)</h3><p data-en="CBT focuses on the link between thoughts, emotions and behaviour. It is structured, goal-oriented and particularly effective for anxiety, panic attacks, OCD and depression, giving you practical tools you keep long after therapy ends.">Η CBT εστιάζει στη σύνδεση σκέψεων, συναισθημάτων και συμπεριφοράς. Είναι δομημένη, με σαφείς στόχους, και ιδιαίτερα αποτελεσματική σε άγχος, κρίσεις πανικού, ιδεοψυχαναγκαστική διαταραχή και κατάθλιψη. Σας δίνει πρακτικά εργαλεία που μένουν μαζί σας και μετά τη θεραπεία.</p></article>
+   <article class="card" style="--i:1"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v18M5 7c3 0 4 2 7 2s4-2 7-2M5 17c3 0 4-2 7-2s4 2 7 2"/></svg></div><h3 data-en="Cognitive Analytic (CAT)">Γνωστική-Αναλυτική</h3><p data-en="A time-limited approach that combines understanding with change: together we map the patterns in relationships and reactions that keep repeating, where they come from, and how to step out of them.">Μια χρονικά οριοθετημένη προσέγγιση που συνδυάζει την κατανόηση με την αλλαγή. Μαζί χαρτογραφούμε τα μοτίβα στις σχέσεις και στις αντιδράσεις που επαναλαμβάνονται, από πού προέρχονται και πώς μπορείτε να βγείτε από αυτά.</p></article>
+   <article class="card" style="--i:2"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".6"/></svg></div><h3 data-en="Psychodynamic">Ψυχοδυναμική</h3><p data-en="Explores how past experiences and less conscious feelings shape the present. It suits people who want to understand themselves more deeply and bring about lasting change in how they feel and relate.">Διερευνά πώς οι εμπειρίες του παρελθόντος και τα λιγότερο συνειδητά συναισθήματα επηρεάζουν το σήμερα. Ταιριάζει σε όσους θέλουν να κατανοήσουν βαθύτερα τον εαυτό τους και να φέρουν μια πιο σταθερή αλλαγή στο πώς νιώθουν και σχετίζονται.</p></article>
+   <article class="card" style="--i:3"><div class="ic"><svg viewBox="0 0 24 24"><rect x="4" y="9" width="16" height="7" rx="3.5" transform="rotate(-35 12 12.5)"/><path d="M10.2 9.4l3.6 5.2"/></svg></div><h3 data-en="Medication">Φαρμακοθεραπεία</h3><p data-en="When medication can help, it is prescribed with care and explained clearly: why it is recommended, how it works, what to expect and how it will be monitored. Doses are reviewed regularly, and electronic prescriptions are issued at the practice.">Όταν η φαρμακευτική αγωγή μπορεί να βοηθήσει, χορηγείται με προσοχή και εξηγείται καθαρά: γιατί προτείνεται, πώς δρα, τι να περιμένετε και πώς θα παρακολουθείται. Η αγωγή επανεκτιμάται τακτικά και στο ιατρείο εκδίδονται ηλεκτρονικές συνταγές.</p></article>
+   <article class="card" style="--i:4"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 11l8-6 8 6v8a1 1 0 0 1-1 1h-5v-5h-4v5H5a1 1 0 0 1-1-1z"/></svg></div><h3 data-en="Home visits">Κατ' οίκον επισκέψεις</h3><p data-en="For older people or anyone who cannot easily come to the practice, there is the option of a home visit — the same careful assessment and follow-up, in the comfort of your own space.">Για ηλικιωμένους ή για ανθρώπους που δυσκολεύονται να έρθουν στο ιατρείο, υπάρχει δυνατότητα επίσκεψης στο σπίτι. Η ίδια προσεκτική εκτίμηση και παρακολούθηση, στην ασφάλεια του δικού σας χώρου.</p></article>
+   <article class="card" style="--i:5"><div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><h3 data-en="Online sessions">Online συνεδρίες</h3><p data-en="Sessions via video call for those who live outside Trikala, travel often or prefer to talk from home. The quality of the session and full confidentiality stay exactly the same.">Συνεδρίες μέσω βιντεοκλήσης για όσους μένουν εκτός Τρικάλων, ταξιδεύουν συχνά ή προτιμούν να μιλήσουν από το σπίτι τους. Η ποιότητα της συνεδρίας και η πλήρης εμπιστευτικότητα παραμένουν ακριβώς ίδιες.</p></article>
+  </div>
+ </div>
+</section>
+
+<!-- ================= CONDITION EXPLORER (signature) ================= -->
+<section class="sec help" id="help" data-amb="sprig">
+ <div class="wrap">
+  <div class="center rv">
+   <p class="eyebrow" data-en="How I help">Πώς βοηθώ</p>
+   <h2 data-en="What brings you here?">Τι σας απασχολεί;</h2>
+   <p class="lead" data-en="Choose what sounds closest to what you are going through, to see how it is approached.">Επιλέξτε ό,τι μοιάζει πιο κοντά σε αυτό που περνάτε, για να δείτε πώς το αντιμετωπίζουμε.</p>
+  </div>
+  <div class="x">
+   <div class="cl rvl" role="tablist" aria-label="Θέματα" data-en-aria="Topics" id="cl"></div>
+   <div class="panel" id="panel" role="tabpanel" aria-live="polite">
+    <div class="bg" aria-hidden="true"><div class="ring"></div><div class="ring r2"></div><svg viewBox="0 0 48 48"><path d="M23.5 41 C23.6 30 25 18.5 30.5 6.5"/><path d="M24 32.5 C17.5 31.8 13.6 27.6 12.8 22.6 C19 22.8 22.8 26.6 24 32.5Z"/><path d="M24.8 25 C30.6 24.1 34.4 20 35.4 14.8 C29.6 15 25.9 19 24.8 25Z"/><path d="M26.3 17.2 C21.6 16.2 19.1 12.7 18.8 9 C23.2 9.6 26 12.9 26.3 17.2Z"/></svg></div>
+    <div class="inner" id="pin"></div>
+   </div>
+  </div>
+  <p class="note" data-en="This guide is for information only and does not replace a personal assessment.">Ο οδηγός είναι ενημερωτικός και δεν αντικαθιστά την προσωπική εκτίμηση.</p>
+ </div>
+</section>
+
+<!-- ================= SPACE ================= -->
+<section class="sec space" id="space" data-amb="lines">
+ <div class="wrap">
+  <div class="center rv">
+   <p class="eyebrow" data-en="The practice">Ο χώρος</p>
+   <h2 data-en="A calm space in the centre of Trikala">Ένας ήρεμος χώρος στο κέντρο των Τρικάλων</h2>
+   <p class="lead" data-en="Soft light, warm colours and discretion — so that from the first visit you feel comfortable enough to talk.">Απαλό φως, ζεστά χρώματα και διακριτικότητα, ώστε από την πρώτη επίσκεψη να νιώσετε αρκετά άνετα για να μιλήσετε.</p>
+  </div>
+  <div class="pair">
+   <figure class="ph wipe" data-lb><img src="assets/img/iatreio-psychiatrou-trikala.webp" srcset="assets/img/iatreio-psychiatrou-trikala-800.webp 800w, assets/img/iatreio-psychiatrou-trikala.webp 1600w" sizes="(max-width:760px) 100vw, 600px" width="1600" height="901" loading="lazy" alt="Το γραφείο συνεδριών με τις πολυθρόνες στο ιατρείο στα Τρίκαλα" data-en-alt="The consulting room with two armchairs at the practice in Trikala"><figcaption data-en="Consulting room">Γραφείο συνεδριών</figcaption></figure>
+   <figure class="ph pola" data-lb><img src="assets/img/choros-anamonis-trikala.webp" srcset="assets/img/choros-anamonis-trikala-800.webp 800w, assets/img/choros-anamonis-trikala.webp 1600w" sizes="(max-width:760px) 100vw, 600px" width="1600" height="901" loading="lazy" alt="Ο χώρος με τον καναπέ στο ιατρείο στα Τρίκαλα" data-en-alt="The lounge with the sofa at the practice in Trikala"><figcaption data-en="Lounge">Χώρος αναμονής</figcaption></figure>
+  </div>
+  <div class="facts">
+   <div class="fact" style="--i:0"><svg viewBox="0 0 24 24"><circle cx="12" cy="4.5" r="1.8"/><path d="M12 7v6h5l2 6M12 10h5M9 10a6 6 0 1 0 6 8"/></svg><span data-en="Accessible for people with disabilities">Πρόσβαση για άτομα με αναπηρία</span></div>
+   <div class="fact" style="--i:1"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M10 16V8h3a2.5 2.5 0 0 1 0 5h-3"/></svg><span data-en="Easy parking nearby">Εύκολη στάθμευση</span></div>
+   <div class="fact" style="--i:2"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18M7 15h3"/></svg><span data-en="Card or cash payment">Πληρωμή με κάρτα ή μετρητά</span></div>
+  </div>
+ </div>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section class="sec rev" id="reviews" data-amb="rise">
+ <div class="wrap">
+  <div class="rhead rv">
+   <div>
+    <p class="eyebrow" data-en="Reviews">Κριτικές</p>
+    <h2 data-en="In patients’ own words">Με τα λόγια των ασθενών</h2>
+    <p class="lead" data-en="Real Google reviews, exactly as they were written.">Πραγματικές κριτικές από το Google, όπως ακριβώς γράφτηκαν.</p>
+   </div>
+   <a class="gbadge" href="https://www.google.com/maps/place/%CE%9D%CE%B9%CE%BA%CE%BF%CE%BB%CE%B1%CE%90%CE%B4%CE%BF%CF%85+%CE%95%CE%BB%CE%AD%CE%BD%CE%B7,+%CE%A8%CF%85%CF%87%CE%AF%CE%B1%CF%84%CF%81%CE%BF%CF%82-%CE%A8%CF%85%CF%87%CE%BF%CE%B8%CE%B5%CF%81%CE%B1%CF%80%CE%B5%CF%8D%CF%84%CF%81%CE%B9%CE%B1/@39.5569852,21.7715274,17z/data=!4m8!3m7!1s0x13591fcc83bcd375:0xe949c5051a6c1a2a!8m2!3d39.5569852!4d21.7715274!9m1!1b1!16s%2Fg%2F11sf6nx2wt" target="_blank" rel="noopener">
+    <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>
+    <span><b>5,0</b> <span class="st5">★★★★★</span><small data-en="Google reviews">Αξιολογήσεις Google</small></span>
+   </a>
+  </div>
+  <div class="rgrid" id="rgrid"></div>
+  <div class="rmore rv"><a class="btn" href="https://www.google.com/maps/place/%CE%9D%CE%B9%CE%BA%CE%BF%CE%BB%CE%B1%CE%90%CE%B4%CE%BF%CF%85+%CE%95%CE%BB%CE%AD%CE%BD%CE%B7,+%CE%A8%CF%85%CF%87%CE%AF%CE%B1%CF%84%CF%81%CE%BF%CF%82-%CE%A8%CF%85%CF%87%CE%BF%CE%B8%CE%B5%CF%81%CE%B1%CF%80%CE%B5%CF%8D%CF%84%CF%81%CE%B9%CE%B1/@39.5569852,21.7715274,17z/data=!4m8!3m7!1s0x13591fcc83bcd375:0xe949c5051a6c1a2a!8m2!3d39.5569852!4d21.7715274!9m1!1b1!16s%2Fg%2F11sf6nx2wt" target="_blank" rel="noopener" data-en="Read all reviews on Google">Διαβάστε όλες τις κριτικές στο Google</a></div>
+ </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="sec faq" id="faq" data-amb="twinkle">
+ <div class="wrap">
+  <div class="center rv">
+   <p class="eyebrow" data-en="Questions">Ερωτήσεις</p>
+   <h2 data-en="Frequently asked questions">Συχνές ερωτήσεις</h2>
+  </div>
+  <div class="list" id="faqlist">
+   <details class="qa rv" open><summary><span data-en="What is the difference between a psychiatrist and a psychologist?">Ποια είναι η διαφορά ψυχιάτρου και ψυχολόγου;</span><i></i></summary><div class="a"><p data-en="A psychiatrist is a medical doctor specialised in psychiatry: they can diagnose, prescribe medication when it is needed and issue medical certificates. Ms Nikolaidou is also a trained psychotherapist, so you can receive psychotherapy, medication or a combination of both from the same person.">Ο ψυχίατρος είναι ιατρός με ειδικότητα στην ψυχιατρική: μπορεί να κάνει διάγνωση, να συνταγογραφήσει φάρμακα όταν χρειάζονται και να εκδώσει ιατρικές βεβαιώσεις. Η κα Νικολαΐδου είναι επίσης εκπαιδευμένη ψυχοθεραπεύτρια, οπότε μπορείτε να λάβετε ψυχοθεραπεία, φαρμακοθεραπεία ή συνδυασμό τους από τον ίδιο άνθρωπο.</p></div></details>
+   <details class="qa rv"><summary><span data-en="How long does the first visit last?">Πόσο διαρκεί η πρώτη επίσκεψη;</span><i></i></summary><div class="a"><p data-en="A visit lasts about 60 minutes. In the first meeting we calmly talk about what is troubling you, how it started and how it affects your daily life, so that together we can plan the approach that suits you.">Η επίσκεψη διαρκεί περίπου 60 λεπτά. Στην πρώτη συνάντηση συζητάμε με ηρεμία τι σας απασχολεί, πώς ξεκίνησε και πώς επηρεάζει την καθημερινότητά σας, ώστε να σχεδιάσουμε μαζί τον τρόπο αντιμετώπισης που ταιριάζει σε εσάς.</p></div></details>
+   <details class="qa rv"><summary><span data-en="Will I definitely need to take medication?">Θα χρειαστεί οπωσδήποτε να πάρω φάρμακα;</span><i></i></summary><div class="a"><p data-en="No. Treatment is personal and shaped around your needs and wishes. In many cases psychotherapy is enough. When medication could help, you will be told clearly why, how it works and what to expect, and the decision is made together.">Όχι. Η θεραπεία είναι εξατομικευμένη και καθορίζεται με βάση τις ανάγκες και τις επιθυμίες σας. Σε πολλές περιπτώσεις αρκεί η ψυχοθεραπεία. Όταν η φαρμακοθεραπεία μπορεί να βοηθήσει, σας εξηγείται αναλυτικά γιατί, πώς λειτουργεί και τι να περιμένετε, και η απόφαση παίρνεται μαζί.</p></div></details>
+   <details class="qa rv"><summary><span data-en="Are online sessions available?">Γίνονται συνεδρίες online;</span><i></i></summary><div class="a"><p data-en="Yes. Sessions can take place online, which helps those who live outside Trikala, travel often or find it hard to get around. The quality and confidentiality of the session are the same as at the practice.">Ναι. Υπάρχει δυνατότητα συνεδριών μέσω διαδικτύου, κάτι που βοηθά όσους μένουν εκτός Τρικάλων, ταξιδεύουν συχνά ή δυσκολεύονται να μετακινηθούν. Η ποιότητα και η εμπιστευτικότητα της συνεδρίας είναι ίδιες με εκείνες στο ιατρείο.</p></div></details>
+   <details class="qa rv"><summary><span data-en="Are home visits possible?">Γίνονται κατ' οίκον επισκέψεις;</span><i></i></summary><div class="a"><p data-en="Yes, home visits are possible — for example for older people or for anyone who cannot come to the practice. Call us to talk about your situation and arrange the visit.">Ναι, υπάρχει δυνατότητα για κατ' οίκον επισκέψεις, για παράδειγμα σε ηλικιωμένους ή σε ανθρώπους που δεν μπορούν να έρθουν στο ιατρείο. Επικοινωνήστε τηλεφωνικά για να συζητήσουμε την περίπτωσή σας και να κανονίσουμε την επίσκεψη.</p></div></details>
+   <details class="qa rv"><summary><span data-en="Is what we discuss confidential?">Είναι όσα συζητάμε εμπιστευτικά;</span><i></i></summary><div class="a"><p data-en="Yes. Everything discussed in a session is covered by medical confidentiality and is not shared with anyone without your consent. A safe, discreet setting is the foundation of every therapeutic relationship.">Ναι. Ό,τι συζητείται στη συνεδρία καλύπτεται από το ιατρικό απόρρητο και δεν κοινοποιείται σε κανέναν χωρίς τη δική σας συγκατάθεση. Ένα ασφαλές, διακριτικό περιβάλλον είναι η βάση κάθε θεραπευτικής σχέσης.</p></div></details>
+   <details class="qa rv"><summary><span data-en="Do you issue e-prescriptions and health certificates?">Εκδίδετε ηλεκτρονικές συνταγές και πιστοποιητικά υγείας;</span><i></i></summary><div class="a"><p data-en="Yes. Electronic prescriptions are issued at the practice, as well as the mental-health certificates required for work. Tell us what you need when you book, so you bring everything required.">Ναι. Στο ιατρείο εκδίδονται ηλεκτρονικές συνταγές, καθώς και πιστοποιητικά ψυχικής υγείας που ζητούνται για εργασία. Πείτε μας τι χρειάζεστε όταν κλείνετε το ραντεβού, ώστε να έχετε μαζί σας ό,τι απαιτείται.</p></div></details>
+   <details class="qa rv"><summary><span data-en="How can I pay, and how do I cancel?">Πώς μπορώ να πληρώσω και πώς ακυρώνω ένα ραντεβού;</span><i></i></summary><div class="a"><p data-en="You can pay by card or cash. If you cannot make it, you can cancel up to 3 hours before your appointment. The practice is accessible for people with disabilities and there is easy parking in the area.">Η πληρωμή γίνεται με κάρτα ή μετρητά. Αν δεν μπορείτε να έρθετε, μπορείτε να ακυρώσετε το ραντεβού έως 3 ώρες πριν. Το ιατρείο διαθέτει πρόσβαση για άτομα με αναπηρία και υπάρχει εύκολη στάθμευση στην περιοχή.</p></div></details>
+  </div>
+ </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="sec contact" id="contact" data-amb="rings">
+ <div class="wrap">
+  <div class="center rv">
+   <p class="eyebrow" data-en="Contact">Επικοινωνία</p>
+   <h2 data-en="Book your appointment">Κλείστε το ραντεβού σας</h2>
+   <p class="lead" data-en="Call to arrange a visit at the practice, a home visit or an online session.">Τηλεφωνήστε για να κανονίσουμε επίσκεψη στο ιατρείο, κατ' οίκον ή online συνεδρία.</p>
+  </div>
+  <div class="ct">
+   <div class="cbox" id="cbox">
+    <a class="crow" style="--i:0" href="tel:+302431102430"><span class="ci"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span><span><small data-en="Phone">Τηλέφωνο</small><b>2431 102430</b></span></a>
+    <a class="crow" style="--i:1" href="https://www.google.com/maps/dir/?api=1&destination=39.5569852,21.7715274" target="_blank" rel="noopener"><span class="ci"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><span><small data-en="Address">Διεύθυνση</small><address><b data-en="Kolokotroni 29, Trikala 421 00">Κολοκοτρώνη 29, Τρίκαλα 421 00</b></address></span></a>
+    <div class="crow" style="--i:2"><span class="ci"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></span><span><small data-en="Hours">Ωράριο</small><b data-en="By appointment · visits last about 60 minutes">Κατόπιν ραντεβού · διάρκεια επίσκεψης περίπου 60 λεπτά</b></span></div>
+    <a class="crow" style="--i:3" href="https://www.doctoranytime.gr/d/Psychiatros/nikolaidou-eleni" target="_blank" rel="noopener"><span class="ci"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg></span><span><small data-en="Online booking">Online ραντεβού</small><b>doctoranytime</b></span></a>
+    <a class="crow" style="--i:4" href="https://www.facebook.com/profile.php?id=100090853848666" target="_blank" rel="noopener"><span class="ci"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></svg></span><span><small>Facebook</small><b data-en="Eleni Nikolaidou, Psychiatrist">Ελένη Νικολαΐδου, Ψυχίατρος</b></span></a>
+    <a class="btn btn-clay mag" href="tel:+302431102430"><span data-en="Call now">Καλέστε τώρα</span></a>
+    <p class="dir" data-en="The practice is in the centre of Trikala, at 29 Theodorou Kolokotroni Street. There is easy parking in the area and the practice is accessible for people with disabilities.">Το ιατρείο βρίσκεται στο κέντρο των Τρικάλων, στην οδό Θεοδώρου Κολοκοτρώνη 29. Υπάρχει εύκολη στάθμευση στην περιοχή και ο χώρος διαθέτει πρόσβαση για άτομα με αναπηρία.</p>
+   </div>
+   <div class="map" id="map"><iframe src="https://www.google.com/maps?q=%CE%9D%CE%B9%CE%BA%CE%BF%CE%BB%CE%B1%CE%90%CE%B4%CE%BF%CF%85%20%CE%95%CE%BB%CE%AD%CE%BD%CE%B7%20%CE%A8%CF%85%CF%87%CE%AF%CE%B1%CF%84%CF%81%CE%BF%CF%82%2C%20%CE%9A%CE%BF%CE%BB%CE%BF%CE%BA%CE%BF%CF%84%CF%81%CF%8E%CE%BD%CE%B7%2029%2C%20%CE%A4%CF%81%CE%AF%CE%BA%CE%B1%CE%BB%CE%B1&z=16&output=embed" title="Χάρτης: Κολοκοτρώνη 29, Τρίκαλα" data-en-title="Map: Kolokotroni 29, Trikala" loading="eager" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer class="ftr" data-amb="washes">
+ <svg class="bigmark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22.5"/><path d="M23.5 41 C23.6 30 25 18.5 30.5 6.5"/><path d="M24 32.5 C17.5 31.8 13.6 27.6 12.8 22.6 C19 22.8 22.8 26.6 24 32.5Z"/><path d="M24.8 25 C30.6 24.1 34.4 20 35.4 14.8 C29.6 15 25.9 19 24.8 25Z"/><path d="M26.3 17.2 C21.6 16.2 19.1 12.7 18.8 9 C23.2 9.6 26 12.9 26.3 17.2Z"/></svg>
+ <div class="wrap">
+  <div>
+   <a class="brand" href="#top" aria-label="Αρχή σελίδας" data-en-aria="Back to top"><svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22.5"/><path d="M23.5 41 C23.6 30 25 18.5 30.5 6.5"/><path d="M24 32.5 C17.5 31.8 13.6 27.6 12.8 22.6 C19 22.8 22.8 26.6 24 32.5Z"/><path d="M24.8 25 C30.6 24.1 34.4 20 35.4 14.8 C29.6 15 25.9 19 24.8 25Z"/><path d="M26.3 17.2 C21.6 16.2 19.1 12.7 18.8 9 C23.2 9.6 26 12.9 26.3 17.2Z"/><path d="M28.6 10.6 C32 9.8 34 7.2 34.4 4.6 C31 5 28.9 7.4 28.6 10.6Z"/></svg><span><b data-en="Eleni Nikolaidou">Ελένη Νικολαΐδου</b><small data-en="Psychiatrist · Psychotherapist">Ψυχίατρος · Ψυχοθεραπεύτρια</small></span></a>
+   <p style="margin-top:18px;max-width:360px" data-en="Psychotherapy, medication or a combination of both, in Trikala, at home or online.">Ψυχοθεραπεία, φαρμακοθεραπεία ή συνδυασμός τους, στα Τρίκαλα, κατ' οίκον ή online.</p>
+  </div>
+  <div>
+   <h4 data-en="Contact">Επικοινωνία</h4>
+   <ul><li><a href="tel:+302431102430">2431 102430</a></li><li><address data-en="Kolokotroni 29, Trikala 421 00">Κολοκοτρώνη 29, Τρίκαλα 421 00</address></li><li data-en="By appointment">Κατόπιν ραντεβού</li></ul>
+  </div>
+  <div>
+   <h4 data-en="Links">Σύνδεσμοι</h4>
+   <ul><li><a href="#help" data-en="How I help">Πώς βοηθώ</a></li><li><a href="https://www.doctoranytime.gr/d/Psychiatros/nikolaidou-eleni" target="_blank" rel="noopener">doctoranytime</a></li><li><a href="https://www.facebook.com/profile.php?id=100090853848666" target="_blank" rel="noopener">Facebook</a></li></ul>
+  </div>
+  <div class="bot"><span>© <span id="yr">2026</span> <span data-en="Eleni Nikolaidou · Psychiatrist-Psychotherapist">Ελένη Νικολαΐδου · Ψυχίατρος-Ψυχοθεραπεύτρια</span></span><span>Designed by <a href="https://advonmedia.com" target="_blank" rel="noopener">Advon Media</a></span></div>
+ </div>
+</footer>
+
+<nav class="mbar" id="mbar" aria-label="Γρήγορες ενέργειες" data-en-aria="Quick actions">
+ <a href="tel:+302431102430"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span data-en="Call">Κλήση</span></a>
+ <a href="https://www.doctoranytime.gr/d/Psychiatros/nikolaidou-eleni" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg><span data-en="Book">Ραντεβού</span></a>
+ <a href="https://www.google.com/maps/dir/?api=1&destination=39.5569852,21.7715274" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span data-en="Directions">Οδηγίες</span></a>
+</nav>
+<button class="totop" id="totop" aria-label="Επιστροφή στην αρχή" data-en-aria="Back to top"><svg class="ring" viewBox="0 0 56 56"><circle cx="28" cy="28" r="26" pathLength="1"/></svg><svg class="ar" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Προβολή φωτογραφίας" data-en-aria="Photo viewer"><button id="lbx" aria-label="Κλείσιμο" data-en-aria="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button><img id="lbimg" alt=""></div>
+
+<script>
+(function(){
+var d=document,w=window,html=d.documentElement,RM=matchMedia('(prefers-reduced-motion:reduce)').matches,lang='el';
+function $(s,c){return (c||d).querySelector(s)}function $$(s,c){return [].slice.call((c||d).querySelectorAll(s))}
+d.getElementById('yr').textContent=new Date().getFullYear();
+
+/* ---------- data ---------- */
+var C=[
+ {el:['Κατάθλιψη','Όταν η διάθεση μένει χαμηλή για εβδομάδες, χάνεται το ενδιαφέρον για όσα σας ευχαριστούσαν και όλα μοιάζουν βαριά. Η κατάθλιψη είναι συχνή και αντιμετωπίζεται αποτελεσματικά: ξεκινάμε με προσεκτική εκτίμηση και σχεδιάζουμε θεραπεία που μπορεί να περιλαμβάνει ψυχοθεραπεία, φαρμακευτική αγωγή ή συνδυασμό τους.',['Ψυχοθεραπεία','Φαρμακοθεραπεία','Συνδυασμός']],
+  en:['Depression','When your mood stays low for weeks, you lose interest in what you used to enjoy and everything feels heavy. Depression is common and it responds well to treatment: we start with a careful assessment and plan care that may include psychotherapy, medication or both.',['Psychotherapy','Medication','Combination']]},
+ {el:['Άγχος & αγχώδεις διαταραχές','Συνεχής ανησυχία, ένταση στο σώμα, δυσκολία συγκέντρωσης και ύπνου. Όταν το άγχος αρχίζει να οργανώνει την καθημερινότητά σας, η γνωσιακή-συμπεριφορική ψυχοθεραπεία δίνει πρακτικά εργαλεία για να το διαχειριστείτε, και όπου χρειάζεται συνδυάζεται με φαρμακευτική υποστήριξη.',['CBT','Τεχνικές χαλάρωσης','Φαρμακοθεραπεία όπου χρειάζεται']],
+  en:['Anxiety disorders','Constant worry, tension in the body, trouble concentrating and sleeping. When anxiety starts to organise your days, cognitive-behavioural therapy gives practical tools to manage it, combined with medication where needed.',['CBT','Relaxation techniques','Medication where needed']]},
+ {el:['Κρίσεις πανικού','Ξαφνικό αίσθημα έντονου φόβου με ταχυπαλμία, δύσπνοια ή ζάλη, που συχνά μοιάζει με κάτι σοβαρό στο σώμα. Μαθαίνουμε να κατανοούμε τι συμβαίνει, σπάμε τον κύκλο του φόβου για τον φόβο και σταδιακά επιστρέφετε στα μέρη και στις δραστηριότητες που αποφεύγατε.',['CBT','Ψυχοεκπαίδευση','Σταδιακή έκθεση']],
+  en:['Panic attacks','A sudden rush of intense fear with a racing heart, breathlessness or dizziness, often feeling like something serious in the body. We learn what is happening, break the cycle of fear of fear, and step by step you return to the places and activities you had avoided.',['CBT','Psychoeducation','Gradual exposure']]},
+ {el:['Αϋπνία & διαταραχές ύπνου','Δυσκολία να κοιμηθείτε, συχνά ξυπνήματα ή πρωινή κούραση που δεν περνά. Ο ύπνος επηρεάζει και επηρεάζεται από την ψυχική υγεία. Αναζητούμε την αιτία και συνδυάζουμε αλλαγές στις συνήθειες ύπνου, ψυχοθεραπευτικές τεχνικές και, όταν χρειάζεται, κατάλληλη αγωγή.',['Υγιεινή ύπνου','CBT για αϋπνία','Αγωγή όταν χρειάζεται']],
+  en:['Insomnia & sleep problems','Trouble falling asleep, frequent waking or morning tiredness that does not pass. Sleep affects and is affected by mental health. We look for the cause and combine changes in sleep habits, psychotherapy techniques and, when needed, suitable medication.',['Sleep hygiene','CBT for insomnia','Medication when needed']]},
+ {el:['Ιδεοψυχαναγκαστική διαταραχή','Σκέψεις που επανέρχονται χωρίς να τις θέλετε και πράξεις που νιώθετε ότι πρέπει να επαναλάβετε για να ησυχάσετε. Η ΙΨΔ αντιμετωπίζεται με εξειδικευμένη γνωσιακή-συμπεριφορική θεραπεία, συχνά σε συνδυασμό με φαρμακοθεραπεία.',['CBT','Φαρμακοθεραπεία','Συνδυασμός']],
+  en:['Obsessive-compulsive disorder','Unwanted thoughts that keep coming back and actions you feel you must repeat to feel at ease. OCD is treated with specialised cognitive-behavioural therapy, often combined with medication.',['CBT','Medication','Combination']]},
+ {el:['Διπολική διαταραχή','Περίοδοι με πολύ υψηλή ενέργεια και διάθεση που εναλλάσσονται με περιόδους κατάθλιψης. Με σωστή διάγνωση, σταθεροποιητική αγωγή και τακτική παρακολούθηση, οι περισσότεροι άνθρωποι ζουν μια σταθερή και δημιουργική ζωή.',['Διάγνωση','Σταθεροποιητική αγωγή','Τακτική παρακολούθηση']],
+  en:['Bipolar disorder','Periods of very high energy and mood alternating with periods of depression. With the right diagnosis, mood-stabilising treatment and regular follow-up, most people live a stable and fulfilling life.',['Diagnosis','Mood-stabilising treatment','Regular follow-up']]},
+ {el:['Διατροφικές διαταραχές','Όταν το φαγητό, το βάρος και η εικόνα του σώματος γίνονται πηγή άγχους και ελέγχου. Η αντιμετώπιση είναι ήπια και σταδιακή, με ψυχοθεραπεία που εστιάζει στις σκέψεις και τα συναισθήματα πίσω από τη συμπεριφορά.',['Ψυχοθεραπεία','Ψυχοεκπαίδευση','Συνεργασία με άλλες ειδικότητες']],
+  en:['Eating disorders','When food, weight and body image become a source of anxiety and control. Care is gentle and gradual, with psychotherapy that focuses on the thoughts and feelings behind the behaviour.',['Psychotherapy','Psychoeducation','Work with other specialists']]},
+ {el:['Τριχοτιλλομανία','Η επαναλαμβανόμενη ανάγκη να τραβάτε τις τρίχες σας, συχνά σε στιγμές έντασης ή χωρίς να το καταλαβαίνετε. Με συμπεριφορικές τεχνικές μαθαίνετε να αναγνωρίζετε τις στιγμές αυτές και να τις αντικαθιστάτε με άλλες αντιδράσεις.',['CBT','Τεχνικές αντιστροφής συνήθειας']],
+  en:['Trichotillomania','A repeated urge to pull out your hair, often at tense moments or without noticing. With behavioural techniques you learn to recognise these moments and replace them with other responses.',['CBT','Habit-reversal techniques']]},
+ {el:['Σεξουαλικές δυσκολίες','Δυσκολίες στην ερωτική ζωή συχνά συνδέονται με άγχος, κατάθλιψη ή φαρμακευτική αγωγή. Σε ένα διακριτικό, ασφαλές περιβάλλον αναζητούμε την αιτία και την κατάλληλη αντιμετώπιση, χωρίς αμηχανία.',['Εκτίμηση','Ψυχοθεραπεία','Αναπροσαρμογή αγωγής']],
+  en:['Sexual difficulties','Difficulties in intimate life are often linked to anxiety, depression or medication. In a discreet, safe setting we look for the cause and the right approach, without embarrassment.',['Assessment','Psychotherapy','Medication review']]},
+ {el:['Ψυχογηριατρική & άνοια','Αλλαγές στη μνήμη, στη διάθεση ή στη συμπεριφορά σε μεγαλύτερη ηλικία. Με εμπειρία από ψυχογηριατρικές κλινικές στο Ηνωμένο Βασίλειο, η εκτίμηση γίνεται με σεβασμό και η οικογένεια καθοδηγείται σε κάθε βήμα — και με κατ’ οίκον επίσκεψη όταν χρειάζεται.',['Εκτίμηση','Στήριξη οικογένειας','Κατ’ οίκον επισκέψεις']],
+  en:['Old-age psychiatry & dementia','Changes in memory, mood or behaviour later in life. With experience from old-age psychiatry wards in the UK, the assessment is done with respect and the family is guided at every step — with a home visit when needed.',['Assessment','Family support','Home visits']]}
+];
+var R=[
+ ['IOANNIS MYROGIANNIS','Η συνεργασία μου με την ψυχοθεραπευτρια κα Νικολαΐδου ήταν εξαιρετική! Το μοντέλο που εφαρμόσαμε εξ αποστάσεως ήταν η γνωστική συμπεριφορική ψυχοθεραπεία. Έμεινα απόλυτα ευχαριστημένος μαζί της  τόσο ως προς το επίπεδο των γνώσεων της όσο και ως προς την προσέγγιση της ως άνθρωπος!'],
+ ['Kyriaki Karakoulaki','Άριστη ψυχίατρος, πολύ ευγενική και προσιτή. Αισθάνθηκα αμέσως άνετα να της μιλήσω πράγμα που για μένα είναι δύσκολο. Με προσέγγισε με πολύ ανθρώπινο τρόπο και με βοήθησε σαν επαγγελματίας με την ψυχοθεραπεία που μου παρείχε.'],
+ ['Κωνσταντίνος Μπουγιουκλής','Εξαιρετική ιατρός αλλά πάνω από όλα άνθρωπος. Μου αφιέρωσε τον χρόνο που είχα ανάγκη, ένιωσα ότι με ακούει και ότι είναι δίπλα μου στο πρόβλημα μου. Με βοήθησε με την ψυχοθεραπεία που μου παρείχε. Ένα μεγάλο ευχαριστώ!'],
+ ['xristina kalogirou','Μια εξαιρετικη επαγγελματίας στο χώρο της ψυχοθεραπείας , η οποία προσφέρει την άνεση και την ασφάλεια που χρειάζεται ο θεραπευόμενος μέσα σε αυτό το ταξίδι της αναζήτησης . Οι γνώσεις, η αγάπη για το επάγγελμα της και το επιστημονικό της υπόβαθρο , την κάνουν να ξεχωρίζει! Σίγουρα έχει να μου προσφέρει πολλά και μόνο ευγνώμων είμαι που την έχω γνωρίσει. Την συνιστώ ανεπιφύλακτα!'],
+ ['Elissabet Kabadaki','Εξαιρετική νιώθεις αμέσως άνετα πάρα πολύ ευγενική και είναι εκεί σε ότι χρειαστεί. Μπράβο!!!'],
+ ['Αντρεας Κρουτσκό','Υπέροχη επαγγελματίας.. Την συστήνω ανεπιφύλακτα.. Με έκανε να ανοιχτω αμέσως.'],
+ ['hrisi mallidou','Εξαιρετική ψυχίατρος και άνθρωπος!!'],
+ ['Matias Soulada','Εξαιρετική ψυχίατρος!!!!!!']
+];
+var PAL=['#7E8C74','#B0593C','#5E6F86','#9C7A4E','#6E5A7E','#3F6E62','#A1624F','#4A5A52'];
+
+/* ---------- render reviews ---------- */
+var star='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4L2.8 9.5l6.4-.8z"/></svg>';
+var gi='<svg viewBox="0 0 48 48" aria-label="Google"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>';
+function esc(s){return s.replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]})}
+d.getElementById('rgrid').innerHTML=R.map(function(r,i){return '<article class="rc" lang="el" style="--i:'+(i%4)+'"><div class="stars" aria-label="5/5">'+star+star+star+star+star+'</div><p lang="el">'+esc(r[1])+'</p><div class="who"><span class="av" style="background:'+PAL[i%PAL.length]+'">'+r[0].trim().charAt(0).toUpperCase()+'</span><span>'+esc(r[0])+'</span>'+gi+'</div></article>'}).join('');
+
+/* ---------- condition explorer ---------- */
+var cl=d.getElementById('cl'),pin=d.getElementById('pin'),cur=0;
+function drawList(){cl.innerHTML=C.map(function(c,i){return '<button role="tab" id="ct'+i+'" aria-controls="panel" aria-selected="'+(i===cur)+'" tabindex="'+(i===cur?0:-1)+'" style="--i:'+i+'"><i>'+(i<9?'0':'')+(i+1)+'</i>'+c[lang][0]+'</button>'}).join('');if(io)cl.classList.contains('in')||0}
+function drawPanel(anim){var c=C[cur][lang];var h='<div class="num">'+(cur<9?'0':'')+(cur+1)+' / '+C.length+'</div><h3>'+c[0]+'</h3><p>'+c[1]+'</p><div class="how">'+c[2].map(function(t){return '<span>'+t+'</span>'}).join('')+'</div><a class="btn btn-clay" href="tel:+302431102430">'+(lang==='el'?'Συζητήστε το μαζί μου':'Talk it through with me')+'</a>';
+ if(!anim||RM){pin.innerHTML=h;return}pin.classList.add('swap');setTimeout(function(){pin.innerHTML=h;pin.classList.remove('swap')},220)}
+cl.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var i=+b.id.slice(2);if(i===cur)return;cur=i;$$('button',cl).forEach(function(x,j){x.setAttribute('aria-selected',j===cur);x.tabIndex=j===cur?0:-1});drawPanel(true)});
+cl.addEventListener('keydown',function(e){if(!/Arrow(Up|Down)/.test(e.key))return;e.preventDefault();var n=(cur+(e.key==='ArrowDown'?1:-1)+C.length)%C.length;$('#ct'+n).click();$('#ct'+n).focus()});
+var io=null;drawList();drawPanel(false);
+
+/* ---------- language ---------- */
+var META={el:{t:d.title,d:$('meta[name=description]').content},en:{t:'Psychiatrist in Trikala | Eleni Nikolaidou, Psychotherapist',d:'Psychiatrist and psychotherapist in central Trikala, Greece. Psychotherapy, medication or both, with personal care. At the practice, at home or online.'}};
+function setLang(l,first){if(l===lang&&!first)return;var go=function(){lang=l;html.lang=l;
+ $$('[data-en]').forEach(function(e){if(e._el==null)e._el=e.innerHTML;e.innerHTML=l==='en'?e.getAttribute('data-en'):e._el});
+ ['alt','aria','title'].forEach(function(a){var at=a==='aria'?'aria-label':a;$$('[data-en-'+a+']').forEach(function(e){if(e['_'+a]==null)e['_'+a]=e.getAttribute(at)||'';e.setAttribute(at,l==='en'?e.getAttribute('data-en-'+a):e['_'+a])})});
+ d.title=META[l].t;$('meta[name=description]').content=META[l].d;
+ $$('.lang button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.lang===l)});
+ splitHero();drawList();drawPanel(false);$$('.in',cl.parentNode).length;cl.classList.add('in');
+ try{localStorage.setItem('nik_lang',l)}catch(e){}};
+ if(first||RM){go();return}d.body.style.transition='opacity .25s';d.body.style.opacity='.0';setTimeout(function(){go();d.body.style.opacity='1'},250)}
+$$('.lang button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.lang)})});
+
+/* ---------- hero word split ---------- */
+function splitHero(){var n=$('[data-split]');var t=n.textContent;n.innerHTML=t.split(' ').map(function(x,i){return '<span class="w" style="--i:'+i+'">'+x+'</span>'}).join(' ')}
+splitHero();
+
+/* ---------- intro, then hero ---------- */
+var hero=d.getElementById('hero'),intro=d.getElementById('intro');
+function heroGo(){hero.classList.add('go')}
+var seen=false;try{seen=sessionStorage.getItem('nik_intro')}catch(e){}
+if(!RM&&!seen&&!d.hidden){intro.classList.add('run');try{sessionStorage.setItem('nik_intro',1)}catch(e){}
+ setTimeout(function(){intro.classList.add('lift');heroGo();setTimeout(function(){intro.style.display='none'},950)},1500)}
+else heroGo();
+setTimeout(function(){heroGo();if(intro.classList.contains('run')&&!intro.classList.contains('lift')){intro.style.display='none'}},3200);
+
+/* ---------- reveals ---------- */
+var targets=$$('.rv,.rvx,.rvl,.proof,.tl,.pull,.deal,.wipe,.pola,.facts,.rc,.cbox,.map');
+if('IntersectionObserver' in w){io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);if(e.target.classList.contains('proof'))countUp()}})},{rootMargin:'0px 0px -8% 0px',threshold:.04});targets.forEach(function(t){io.observe(t)})}
+else targets.forEach(function(t){t.classList.add('in')});
+setTimeout(function(){if(d.hidden)targets.forEach(function(t){t.classList.add('in')})},1200);
+
+function countUp(){$$('[data-count]').forEach(function(el){var to=+el.dataset.count,dec=+el.dataset.dec||0,fmt=function(v){return v.toFixed(dec).replace('.',',')};
+ if(RM||d.hidden){el.textContent=fmt(to);return}var t0=performance.now();(function f(t){var p=Math.min(1,(t-t0)/1200);el.textContent=fmt(to*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(f)})(t0);setTimeout(function(){el.textContent=fmt(to)},1600)})}
+
+/* ---------- header, progress, top, mobile bar: one rAF scroll ---------- */
+var hdr=d.getElementById('hdr'),prog=$('.prog'),tt=d.getElementById('totop'),mb=d.getElementById('mbar'),cue=$('.cue'),ticking=false,wasSolid=false;
+function onScroll(){ticking=false;var y=w.scrollY,h=d.documentElement.scrollHeight-innerHeight,p=h>0?y/h:0;
+ var solid=y>60;hdr.classList.toggle('solid',solid);if(solid&&!wasSolid&&!RM){hdr.classList.remove('spin');void hdr.offsetWidth;hdr.classList.add('spin')}wasSolid=solid;
+ prog.style.transform='scaleX('+p+')';tt.style.setProperty('--p',p);tt.classList.toggle('on',y>innerHeight);
+ mb.classList.toggle('on',y>innerHeight*.5);if(cue)cue.classList.toggle('hide',y>40)}
+w.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(onScroll)}},{passive:true});onScroll();
+tt.addEventListener('click',function(){w.scrollTo({top:0,behavior:RM?'auto':'smooth'})});
+
+/* ---------- mobile nav ---------- */
+var mn=d.getElementById('mnav'),bg=d.getElementById('burger');
+function mOpen(o){mn.classList.toggle('open',o);mn.setAttribute('aria-hidden',!o);bg.setAttribute('aria-expanded',o);d.body.style.overflow=o?'hidden':'';if(o)d.getElementById('mclose').focus()}
+bg.addEventListener('click',function(){mOpen(true)});d.getElementById('mclose').addEventListener('click',function(){mOpen(false)});
+$$('[data-close]',mn).forEach(function(a){a.addEventListener('click',function(){mOpen(false)})});
+
+/* ---------- lightbox ---------- */
+var lb=d.getElementById('lb'),lbi=d.getElementById('lbimg'),lastF=null;
+$$('[data-lb]').forEach(function(f){f.tabIndex=0;f.setAttribute('role','button');var im=$('img',f);function op(){lastF=f;lbi.src=im.currentSrc||im.src;lbi.alt=im.alt;lb.classList.add('open');d.getElementById('lbx').focus()}f.addEventListener('click',op);f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();op()}})});
+function lbc(){lb.classList.remove('open');if(lastF)lastF.focus()}
+lb.addEventListener('click',function(e){if(e.target!==lbi)lbc()});
+d.addEventListener('keydown',function(e){if(e.key==='Escape'){if(lb.classList.contains('open'))lbc();if(mn.classList.contains('open'))mOpen(false)}});
+
+/* ---------- FAQ: one open at a time ---------- */
+$$('.qa').forEach(function(q){q.addEventListener('toggle',function(){if(q.open)$$('.qa').forEach(function(o){if(o!==q)o.open=false})})});
+
+/* ---------- pointer: hero light, card tilt + spotlight, magnetic buttons ---------- */
+if(matchMedia('(hover:hover)').matches&&!RM){
+ $$('.tilt .card').forEach(function(c){c.addEventListener('pointermove',function(e){var r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;c.style.setProperty('--mx',x*100+'%');c.style.setProperty('--my',y*100+'%');c.style.transform='perspective(900px) rotateX('+((.5-y)*6)+'deg) rotateY('+((x-.5)*8)+'deg) translateY(-4px)'});c.addEventListener('pointerleave',function(){c.style.transform=''})});
+ $$('.mag').forEach(function(b){b.addEventListener('pointermove',function(e){var r=b.getBoundingClientRect();b.style.transform='translate('+((e.clientX-r.left-r.width/2)*.18)+'px,'+((e.clientY-r.top-r.height/2)*.28)+'px)'});b.addEventListener('pointerleave',function(){b.style.transform=''})});
+ var hb=$('.hbg');hero.addEventListener('pointermove',function(e){var x=e.clientX/innerWidth-.5,y=e.clientY/innerHeight-.5;$$('.orb',hb).forEach(function(o,i){o.style.translate=(x*(i?-30:40))+'px '+(y*(i?-24:30))+'px'})});
+}
+
+/* ---------- hero rising dots ---------- */
+var hb2=$('.hbg');if(hb2&&!RM){for(var i=0;i<(innerWidth<760?5:10);i++){var s=d.createElement('i');s.className='dot';s.style.left=(4+Math.random()*44)+'%';s.style.bottom=(-2)+'%';s.style.setProperty('--d',(14+Math.random()*12)+'s');s.style.setProperty('--dl',(-Math.random()*20)+'s');var z=2+Math.random()*3;s.style.width=s.style.height=z+'px';hb2.appendChild(s)}}
+
+/* ---------- ambient layer: one quiet motion per section ---------- */
+var SPR='<path pathLength="1" d="M23.5 41 C23.6 30 25 18.5 30.5 6.5"/><path pathLength="1" d="M24 32.5 C17.5 31.8 13.6 27.6 12.8 22.6 C19 22.8 22.8 26.6 24 32.5Z"/><path pathLength="1" d="M24.8 25 C30.6 24.1 34.4 20 35.4 14.8 C29.6 15 25.9 19 24.8 25Z"/><path pathLength="1" d="M26.3 17.2 C21.6 16.2 19.1 12.7 18.8 9 C23.2 9.6 26 12.9 26.3 17.2Z"/>';
+var ambs=[];
+$$('[data-amb]').forEach(function(s,k){var kind=s.dataset.amb,a=d.createElement('div');a.className='amb off';a.setAttribute('aria-hidden','true');
+ var dark=s.classList.contains('rev')||s.classList.contains('ftr');var c1=dark?'rgba(126,140,116,.35)':'rgba(169,181,160,.45)',c2=dark?'rgba(212,138,108,.22)':'rgba(235,213,200,.7)';
+ var h='<div class="aw wa" style="--c:'+c1+'"></div><div class="aw wb" style="--c:'+c2+'"></div>';
+ if(kind==='rings'){[[12,22,260],[88,70,340],[70,18,180]].forEach(function(p,i){h+='<i class="rg" style="--x:'+p[0]+'%;--y:'+p[1]+'%;--s:'+p[2]+'px;--c:rgba(176,89,60,.28);--d:'+(9+i*3)+'s;--dl:'+(-i*3)+'s"></i>'})}
+ if(kind==='grid'){h+='<div class="dg"></div>'}
+ if(kind==='sprig'){[[3,12,160,-18],[86,58,210,14],[46,86,120,40]].forEach(function(p){h+='<svg class="sp" viewBox="0 0 48 48" style="--x:'+p[0]+'%;--y:'+p[1]+'%;--s:'+p[2]+'px;--r:'+p[3]+'deg;--c:#7E8C74">'+SPR+'</svg>'})}
+ if(kind==='lines'){h+='<svg class="ln" viewBox="0 0 1440 180" preserveAspectRatio="none" style="--y:18%;--c:rgba(176,89,60,.35)"><path pathLength="1" d="M0 120 C240 40 420 160 720 90 S1200 30 1440 110"/></svg><svg class="ln" viewBox="0 0 1440 180" preserveAspectRatio="none" style="--y:64%;--c:rgba(126,140,116,.45)"><path pathLength="1" d="M0 60 C300 150 520 20 820 100 S1260 150 1440 50"/></svg>'}
+ if(kind==='rise'){for(var j=0;j<(innerWidth<760?4:8);j++){h+='<i class="rg" style="--x:'+(8+j*12)+'%;--y:'+(20+(j%3)*28)+'%;--s:'+(60+(j%4)*40)+'px;--c:rgba(232,210,196,.22);--d:'+(8+j%3*3)+'s;--dl:'+(-j*1.3)+'s"></i>'}}
+ if(kind==='twinkle'){h+='<div class="dg" style="-webkit-mask-image:radial-gradient(50% 60% at 12% 70%,#000,transparent);mask-image:radial-gradient(50% 60% at 12% 70%,#000,transparent)"></div>';[[92,20,120,-10],[6,20,90,20]].forEach(function(p){h+='<svg class="sp" viewBox="0 0 48 48" style="--x:'+p[0]+'%;--y:'+p[1]+'%;--s:'+p[2]+'px;--r:'+p[3]+'deg;--c:#B0593C">'+SPR+'</svg>'})}
+ a.innerHTML=h;s.insertBefore(a,s.firstChild);ambs.push(a)});
+if('IntersectionObserver' in w){var ao=new IntersectionObserver(function(es){es.forEach(function(e){var a=e.target.querySelector(':scope>.amb');if(!a)return;a.classList.toggle('off',!e.isIntersecting);if(e.isIntersecting)a.classList.add('on')})},{rootMargin:'80px 0px'});$$('[data-amb]').forEach(function(s){ao.observe(s)});
+ var ho=new IntersectionObserver(function(es){$('.hbg').classList.toggle('off',!es[0].isIntersecting)});ho.observe(hero)}
+else ambs.forEach(function(a){a.classList.remove('off');a.classList.add('on')});
+
+/* ---------- saved language ---------- */
+try{var sl=localStorage.getItem('nik_lang');if(sl==='en')setLang('en',true)}catch(e){}
+})();
+</script>
+</body>
+</html>
